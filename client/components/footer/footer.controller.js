@@ -1,5 +1,5 @@
 'use strict';
 
 angular.module('arimorcApp')
-  .controller('FooterCtrl', function ($scope) {
+  .controller('FooterCtrl', function () {
   });

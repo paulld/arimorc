@@ -1,4 +1,4 @@
-<header id="header" ng-controller="NavbarCtrl">
+<div ng-controller="NavbarCtrl">
   <div id="header-top">
     <ul class="list-inline">
       <li><a ng-click="changeLanguage('en')" translate="BUTTON_LANG_EN" href="#"></a></li>
@@ -11,14 +11,14 @@
       
     </div>
     <ul class="main-menu list-inline">
-      <li>{{ 'MENU_1' | translate }}</li>
-      <li>{{ 'MENU_2' | translate }}</li>
+      <li><a href="/">{{ 'MENU_1' | translate }}</a></li>
+      <li><a href="/our-expertise">{{ 'MENU_2' | translate }}</a></li>
       <li>{{ 'MENU_3' | translate }}</li>
       <li>{{ 'MENU_4' | translate }}</li>
       <li>{{ 'MENU_5' | translate }}</li>
     </ul>
   </div>
-</header>
+</div>
 
 
 <!-- <div class="navbar navbar-default navbar-static-top" ng-controller="NavbarCtrl">

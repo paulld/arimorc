@@ -14,7 +14,7 @@ $page-margin: 40px;
  * General Layout
  */
 
-html, body, body>div {
+html, body {
   height: 100%;
   width: 100%;
 }
@@ -22,17 +22,9 @@ body {
   padding: 0;
   padding-top: 30px + 80px + 30px;
 }
-/*
-* {
-  margin: 0; 
-}
-*/
 #main {
   min-height: 100%;
   margin: 0 auto -80px;
-}
-.push {
-  margin-bottom: 20px;
 }
 #footer, .push {
   height: 80px;
@@ -130,8 +122,14 @@ body {
 
 // Component styles are injected through grunt
 // injector
+@import 'about-us/about-us.scss';
 @import 'account/login/login.scss';
 @import 'admin/admin.scss';
+@import 'careers/careers.scss';
+@import 'contact-us/contact-us.scss';
+@import 'expertise/expertise.scss';
+@import 'impressum/impressum.scss';
 @import 'main/main.scss';
+@import 'references/references.scss';
 @import 'modal/modal.scss';
 // endinjector

@@ -27,7 +27,13 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div ui-view=""></div>
+    <header id="header" ng-include="'components/navbar/navbar.html'"></header>
+    <main id="main">
+      <div ui-view=""></div>
+      <div class="push"></div>
+    </main>
+    <footer id="footer" ng-include="'components/footer/footer.html'"></footer>
+
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
     <script>
@@ -67,6 +73,8 @@
           <script src="app/account/signup/signup.controller.js"></script>
           <script src="app/admin/admin.controller.js"></script>
           <script src="app/admin/admin.js"></script>
+          <script src="app/expertise/expertise.controller.js"></script>
+          <script src="app/expertise/expertise.js"></script>
           <script src="app/main/main.controller.js"></script>
           <script src="app/main/main.js"></script>
           <script src="app/translate/deutsch.js"></script>
