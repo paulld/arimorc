@@ -1,19 +1,132 @@
 $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
 $fa-font-path: "/bower_components/font-awesome/fonts";
+$color-main: #9abb59;
+$color-secondary-dark: #333333;
+$color-secondary-normal: #777777;
+$color-secondary-light: #e1e1e1;
+$color-secondary-lighter: #aaaaaa;
+$page-margin: 40px;
 
 @import 'bootstrap-sass-official/vendor/assets/stylesheets/bootstrap';
 @import 'font-awesome/scss/font-awesome';
 
-/**
- * App-wide Styles
+/*******************
+ * General Layout
  */
 
-.browsehappy {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+html, body, body>div {
+  height: 100%;
+  width: 100%;
 }
+body {
+  padding: 0;
+  padding-top: 30px + 80px + 30px;
+}
+/*
+* {
+  margin: 0; 
+}
+*/
+#main {
+  min-height: 100%;
+  margin: 0 auto -80px;
+}
+.push {
+  margin-bottom: 20px;
+}
+#footer, .push {
+  height: 80px;
+}
+
+
+/*******************
+ * Header Top
+ */
+
+#header-top {
+  padding: 4px $page-margin 0;
+  position: fixed;
+  height: 30px;
+  top: 0;
+  width: 100%;
+  background-color: $color-main;
+  opacity: .95;
+  z-index: 1;
+}
+#header-top > ul {
+  text-align: right;
+}
+#header-top > ul > li {
+  padding: 0 10px;
+  line-height: 10px;
+}
+#header-top > ul > li+li {
+  border-left: 1px solid #e1e1e1;
+}
+#header-top > ul > li > a {
+  color: #e1e1e1;
+  font-weight: 300;
+  font-size: 12px;
+  padding-bottom: 2px;
+  border-bottom: 1px solid transparent;
+}
+#header-top > ul > li > a:hover {
+  color: #f1f1f1;
+  text-decoration: none;
+  border-bottom-color: #f1f1f1;
+  -webkit-transition: border-bottom-color 300ms ease-in-out;
+     -moz-transition: border-bottom-color 300ms ease-in-out;
+      -ms-transition: border-bottom-color 300ms ease-in-out;
+       -o-transition: border-bottom-color 300ms ease-in-out;
+          transition: border-bottom-color 300ms ease-in-out;
+}
+
+
+/*******************
+ * Header Main
+ */
+
+#header-main {
+  padding: 30px $page-margin;
+  position: fixed;
+  height: 80px;
+  top: 30px;
+  width: 100%;
+  background-color: rgba(255,255,255,.95);
+  z-index: 1;
+  border-bottom: 1px solid $color-main;
+}
+.logo {
+  display: inline-block;
+  float: left;
+}
+.main-menu {
+  display: inline-block;
+  float: right;
+}
+
+/*******************
+ * Footer
+ */
+
+#footer {
+  padding: 35px $page-margin;
+  background-color: $color-secondary-dark;
+}
+.copyright {
+  display: inline-block;
+  float: left;
+}
+.footer-menu {
+  display: inline-block;
+  float: right;
+}
+.footer-menu > li,
+.footer-menu > li > a {
+  line-height: 10px;
+  color: $color-secondary-lighter;
+}
+
 
 // Component styles are injected through grunt
 // injector
