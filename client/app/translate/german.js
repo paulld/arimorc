@@ -1,28 +1,28 @@
 'use strict';
 
-var translateFrench = {
-  TITLE: 'Hello',
-  FOO: 'This is a paragraph',
+var translateGerman = {
+  TITLE: 'Hallo',
+  FOO: 'Dies ist ein Paragraph',
   BUTTON_LANG_DE: 'Deutsch',
   BUTTON_LANG_EN: 'English',
   BUTTON_LANG_FR: 'Français',
   HOME: {
-    MENU_TITLE: 'Accueil'
+    MENU_TITLE: 'Home'
   },
   EXPERTISE: {
-    MENU_TITLE: 'Notre Expertise'
+    MENU_TITLE: 'Our Expertise'
   },
   REFERENCES: {
-    MENU_TITLE: 'Références'
+    MENU_TITLE: 'References'
   },
   ABOUT: {
-    MENU_TITLE: 'A Propos'
+    MENU_TITLE: 'About Us'
   },
   CONTACT: {
-    MENU_TITLE: 'Contacts'
+    MENU_TITLE: 'Contact Us'
   },
   CAREERS: {
-    MENU_TITLE: 'Nous recrutons!'
+    MENU_TITLE: 'We are hiring!'
   },
   INTRANET: {
     MENU_TITLE: 'Intranet'
@@ -34,5 +34,5 @@ var translateFrench = {
 
 angular.module('arimorcApp')
   .config(['$translateProvider', function ($translateProvider) {
-    $translateProvider.translations('fr', translateFrench);
+    $translateProvider.translations('de', translateGerman);
   }]);

@@ -1,23 +1,39 @@
 'use strict';
 
+var translateEnglish = {
+  TITLE: 'Hello',
+  FOO: 'This is a paragraph',
+  BUTTON_LANG_DE: 'Deutsch',
+  BUTTON_LANG_EN: 'English',
+  BUTTON_LANG_FR: 'Français',
+  HOME: {
+    MENU_TITLE: 'Home'
+  },
+  EXPERTISE: {
+    MENU_TITLE: 'Our Expertise'
+  },
+  REFERENCES: {
+    MENU_TITLE: 'References'
+  },
+  ABOUT: {
+    MENU_TITLE: 'About Us'
+  },
+  CONTACT: {
+    MENU_TITLE: 'Contact Us'
+  },
+  CAREERS: {
+    MENU_TITLE: 'We are hiring!'
+  },
+  INTRANET: {
+    MENU_TITLE: 'Intranet'
+  },
+  IMPRESSUM: {
+    MENU_TITLE: 'Impressum'
+  }
+};
+
 angular.module('arimorcApp')
   .config(['$translateProvider', function ($translateProvider) {
-    $translateProvider.translations('en', {
-      'TITLE': 'Hello',
-      'FOO': 'This is a paragraph',
-      'BUTTON_LANG_DE': 'Deutsch',
-      'BUTTON_LANG_EN': 'English',
-      'BUTTON_LANG_FR': 'Français',
-      'MENU_1': 'Home',
-      'MENU_2': 'Our Expertise',
-      'MENU_3': 'References',
-      'MENU_4': 'About Us',
-      'MENU_5': 'Contact Us',
-      'MENU_6': 'We are hiring!',
-      'MENU_7': 'Intranet',
-      'MENU_8': 'Impressum'
-    });
-   
+    $translateProvider.translations('en', translateEnglish);
     $translateProvider.preferredLanguage('en');
   }]);
-
