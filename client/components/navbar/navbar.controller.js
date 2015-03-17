@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('arimorcApp')
-  .controller('NavbarCtrl', function ($scope, $location, Auth) {
+  .controller('NavbarCtrl', function ($scope, $location, Auth, $translate) {
     $scope.menu = [{
       'title': 'Home',
       'link': '/'
@@ -19,5 +19,9 @@ angular.module('arimorcApp')
 
     $scope.isActive = function(route) {
       return route === $location.path();
+    };
+
+    $scope.changeLanguage = function (langKey) {
+      $translate.use(langKey);
     };
   });
