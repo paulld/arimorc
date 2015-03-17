@@ -1,22 +1,32 @@
 <div ng-controller="NavbarCtrl">
   <div id="header-top">
-    <ul class="list-inline">
-      <li><a ng-click="changeLanguage('en')" translate="BUTTON_LANG_EN" href="#"></a></li>
-      <li><a ng-click="changeLanguage('de')" translate="BUTTON_LANG_DE" href="#"></a></li>
-      <li><a ng-click="changeLanguage('fr')" translate="BUTTON_LANG_FR" href="#"></a></li>
-    </ul>
+    <div class="container">
+      <ul class="top-menu list-inline">
+        <li class="{{ 'EN_SELECTED' | translate}}">
+          <a ng-click="changeLanguage('en')" translate="BUTTON_LANG_EN" href="#"></a>
+        </li>
+        <li class="{{ 'DE_SELECTED' | translate}}">
+          <a ng-click="changeLanguage('de')" translate="BUTTON_LANG_DE" href="#"></a>
+        </li>
+        <li class="{{ 'FR_SELECTED' | translate}}">
+          <a ng-click="changeLanguage('fr')" translate="BUTTON_LANG_FR" href="#"></a>
+        </li>
+      </ul>
+    </div>
   </div>
   <div id="header-main">
-    <div class="logo">
-      
+    <div class="container">
+      <div class="logo">
+        
+      </div>
+      <ul class="main-menu list-inline">
+        <li><a href="/">{{ 'HOME.MENU_TITLE' | translate }}</a></li>
+        <li><a href="/our-expertise">{{ 'EXPERTISE.MENU_TITLE' | translate }}</a></li>
+        <li><a href="/references">{{ 'REFERENCES.MENU_TITLE' | translate }}</a></li>
+        <li><a href="/about-us">{{ 'ABOUT.MENU_TITLE' | translate }}</a></li>
+        <li><a href="/contact-us">{{ 'CONTACT.MENU_TITLE' | translate }}</a></li>
+      </ul>
     </div>
-    <ul class="main-menu list-inline">
-      <li><a href="/">{{ 'HOME.MENU_TITLE' | translate }}</a></li>
-      <li><a href="/our-expertise">{{ 'EXPERTISE.MENU_TITLE' | translate }}</a></li>
-      <li><a href="/references">{{ 'REFERENCES.MENU_TITLE' | translate }}</a></li>
-      <li><a href="/about-us">{{ 'ABOUT.MENU_TITLE' | translate }}</a></li>
-      <li><a href="/contact-us">{{ 'CONTACT.MENU_TITLE' | translate }}</a></li>
-    </ul>
   </div>
 </div>
 

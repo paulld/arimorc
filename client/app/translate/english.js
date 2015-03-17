@@ -1,6 +1,9 @@
 'use strict';
 
 var translateEnglish = {
+  EN_SELECTED: 'active',
+  FR_SELECTED: '',
+  DE_SELECTED: '',
   TITLE: 'Hello',
   FOO: 'This is a paragraph',
   BUTTON_LANG_DE: 'Deutsch',

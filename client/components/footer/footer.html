@@ -1,11 +1,13 @@
 <div ng-controller="FooterCtrl">
-  <div class="copyright">
-    &copy; Copyright - Arimor Consulting
+  <div class="container">
+    <div class="copyright">
+      &copy; Copyright - Arimor Consulting
+    </div>
+    <ul class="footer-menu list-inline">
+      <li><a href="/contact-us">{{ 'CONTACT.MENU_TITLE' | translate }}</a></li>
+      <li><a href="/careers">{{ 'CAREERS.MENU_TITLE' | translate }}</a></li>
+      <li><a href="http://intranet.arimor-consulting.de/">{{ 'INTRANET.MENU_TITLE' | translate }}</a></li>
+      <li><a href="/impressum">{{ 'IMPRESSUM.MENU_TITLE' | translate }}</a></li>
+    </ul>
   </div>
-  <ul class="footer-menu list-inline">
-    <li><a href="/contact-us">{{ 'CONTACT.MENU_TITLE' | translate }}</a></li>
-    <li><a href="/careers">{{ 'CAREERS.MENU_TITLE' | translate }}</a></li>
-    <li><a href="http://intranet.arimor-consulting.de/">{{ 'INTRANET.MENU_TITLE' | translate }}</a></li>
-    <li><a href="/impressum">{{ 'IMPRESSUM.MENU_TITLE' | translate }}</a></li>
-  </ul>
 </div>

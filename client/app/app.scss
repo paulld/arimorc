@@ -4,8 +4,12 @@ $color-main: #9abb59;
 $color-secondary-dark: #333333;
 $color-secondary-normal: #777777;
 $color-secondary-light: #e1e1e1;
+$color-secondary-light2: #e4e4e4;
 $color-secondary-lighter: #aaaaaa;
-$page-margin: 40px;
+$page-margin: 0;
+$header-top-height: 30px;
+$header-main-height: 80px;
+$footer-height: 80px;
 
 @import 'bootstrap-sass-official/vendor/assets/stylesheets/bootstrap';
 @import 'font-awesome/scss/font-awesome';
@@ -20,14 +24,16 @@ html, body {
 }
 body {
   padding: 0;
-  padding-top: 30px + 80px + 30px;
+  padding-top: $header-top-height + $header-main-height;
 }
 #main {
   min-height: 100%;
-  margin: 0 auto -80px;
-}
+  margin: 0 auto -80px;  /* Negative margin-bottom must be equal to $footer-height */
+  background-color: $color-secondary-light2;
+  padding: 30px $page-margin;
+} 
 #footer, .push {
-  height: 80px;
+  height: $footer-height;
 }
 
 
@@ -38,31 +44,31 @@ body {
 #header-top {
   padding: 4px $page-margin 0;
   position: fixed;
-  height: 30px;
+  height: $header-top-height;
   top: 0;
   width: 100%;
   background-color: $color-main;
   opacity: .95;
   z-index: 1;
 }
-#header-top > ul {
+ul.top-menu {
   text-align: right;
 }
-#header-top > ul > li {
+ul.top-menu > li {
   padding: 0 10px;
   line-height: 10px;
 }
-#header-top > ul > li+li {
+ul.top-menu > li+li {
   border-left: 1px solid #e1e1e1;
 }
-#header-top > ul > li > a {
+ul.top-menu > li > a {
   color: #e1e1e1;
   font-weight: 300;
   font-size: 12px;
   padding-bottom: 2px;
   border-bottom: 1px solid transparent;
 }
-#header-top > ul > li > a:hover {
+ul.top-menu > li > a:hover {
   color: #f1f1f1;
   text-decoration: none;
   border-bottom-color: #f1f1f1;
@@ -71,6 +77,12 @@ body {
       -ms-transition: border-bottom-color 300ms ease-in-out;
        -o-transition: border-bottom-color 300ms ease-in-out;
           transition: border-bottom-color 300ms ease-in-out;
+}
+ul.top-menu > li.active > a {
+  color: #f1f1f1;
+  text-decoration: none;
+  border-bottom-color: #f1f1f1;
+  cursor: default;
 }
 
 
@@ -81,8 +93,8 @@ body {
 #header-main {
   padding: 30px $page-margin;
   position: fixed;
-  height: 80px;
-  top: 30px;
+  height: $header-main-height;
+  top: $header-top-height;
   width: 100%;
   background-color: rgba(255,255,255,.95);
   z-index: 1;
@@ -92,7 +104,7 @@ body {
   display: inline-block;
   float: left;
 }
-.main-menu {
+ul.main-menu {
   display: inline-block;
   float: right;
 }
@@ -109,12 +121,12 @@ body {
   display: inline-block;
   float: left;
 }
-.footer-menu {
+ul.footer-menu {
   display: inline-block;
   float: right;
 }
-.footer-menu > li,
-.footer-menu > li > a {
+ul.footer-menu > li,
+ul.footer-menu > li > a {
   line-height: 10px;
   color: $color-secondary-lighter;
 }

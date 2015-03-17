@@ -1,6 +1,9 @@
 'use strict';
 
 var translateGerman = {
+  EN_SELECTED: '',
+  FR_SELECTED: '',
+  DE_SELECTED: 'active',
   TITLE: 'Hallo',
   FOO: 'Dies ist ein Paragraph',
   BUTTON_LANG_DE: 'Deutsch',
