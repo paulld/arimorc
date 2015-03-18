@@ -1,18 +1,54 @@
 $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
 $fa-font-path: "/bower_components/font-awesome/fonts";
-$color-main: #9abb59;
-$color-secondary-dark: #333333;
-$color-secondary-normal: #777777;
-$color-secondary-light: #e1e1e1;
-$color-secondary-light2: #e4e4e4;
-$color-secondary-lighter: #aaaaaa;
+/*$s3-font-path: "https://s3.amazonaws.com/arimorc/fonts/";*/
+
+$color-main: rgb(154,187,89);
+$background-color: rgb(255,255,255);
+$section-background-color: rgb(250,250,250);
+$color-secondary-dark: rgb(68,68,68);
+$color-secondary-normal: rgb(119,119,119);
+$color-secondary-light: rgb(225,225,225);
+$color-secondary-light2: rgb(228,228,228);
+$color-secondary-lighter: rgb(240,240,240);
 $page-margin: 0;
 $header-top-height: 30px;
 $header-main-height: 80px;
 $footer-height: 80px;
+$font-titles: 'Klavika-Light', sans-serif;
+$font-texts: Helvetica, Arial, sans-serif;
 
 @import 'bootstrap-sass-official/vendor/assets/stylesheets/bootstrap';
 @import 'font-awesome/scss/font-awesome';
+
+@font-face{
+  font-family: 'Klavika-Regular';
+  src: url(/assets/fonts/Klavika-Regular.eot);
+  src: url(/assets/fonts/Klavika-Regular.woff) format('woff'),
+       url(/assets/fonts/Klavika-Regular.ttf) format('truetype'),
+       url(/assets/fonts/Klavika-Regular.svg#Klavika-Regular) format('svg');
+  font-weight:400;
+  font-style:normal
+}
+@font-face{
+  font-family: 'Klavika-Medium';
+  src: url(/assets/fonts/Klavika-Medium.eot);
+  src: url(/assets/fonts/Klavika-Medium.woff) format('woff'),
+       url(/assets/fonts/Klavika-Medium.ttf) format('truetype'),
+       url(/assets/fonts/Klavika-Medium.svg#Klavika-Medium) format('svg');
+  font-weight:400;
+  font-style:normal
+}
+@font-face{
+  font-family: 'Klavika-Light';
+  src: url(/assets/fonts/Klavika-Light.eot);
+  src: url(/assets/fonts/Klavika-Light.woff) format('woff'),
+       url(/assets/fonts/Klavika-Light.ttf) format('truetype'),
+       url(/assets/fonts/Klavika-Light.svg#Klavika-Light) format('svg');
+  font-weight:400;
+  font-style:normal
+}
+
+
 
 /*******************
  * General Layout
@@ -25,12 +61,15 @@ html, body {
 body {
   padding: 0;
   padding-top: $header-top-height + $header-main-height;
+  background-color: $background-color;
 }
 #main {
   min-height: 100%;
   margin: 0 auto -80px;  /* Negative margin-bottom must be equal to $footer-height */
-  background-color: $color-secondary-light2;
-  padding: 30px $page-margin;
+  background-color: $background-color;
+  padding: 70px 0 50px 40px;
+  font-family: $font-texts;
+  color: $color-secondary-dark;
 } 
 #footer, .push {
   height: $footer-height;
@@ -59,11 +98,11 @@ ul.top-menu > li {
   line-height: 10px;
 }
 ul.top-menu > li+li {
-  border-left: 1px solid #e1e1e1;
+  border-left: 1px solid $color-secondary-light;
 }
 ul.top-menu > li > a {
-  color: #e1e1e1;
-  font-weight: 300;
+  color: $color-secondary-light;
+  font-family: $font-titles;
   font-size: 12px;
   padding-bottom: 2px;
   border-bottom: 1px solid transparent;
@@ -96,9 +135,10 @@ ul.top-menu > li.active > a {
   height: $header-main-height;
   top: $header-top-height;
   width: 100%;
-  background-color: rgba(255,255,255,.95);
   z-index: 1;
   border-bottom: 1px solid $color-main;
+  background-color: $background-color;
+  opacity: .95;
 }
 .logo {
   display: inline-block;
@@ -107,35 +147,43 @@ ul.top-menu > li.active > a {
 ul.main-menu {
   display: inline-block;
   float: right;
-  /*margin-top: 30px;*/
+  margin: 46px 0 0;
 }
 ul.main-menu > li {
-  height: 82px;
-  padding-top: 30px;
-  margin: 0 5px;
-  /*padding: 0 10px;*/
-  /*line-height: 18px;*/
-  border-bottom: 5px solid transparent;
+  height: 40px;
+  margin: 0 -2px;
+  padding: 7px 12px;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
 }
 ul.main-menu > li > a {
   color: $color-main;
-  font-weight: 300;
+  opacity: .7;
+  font-family: $font-titles;
   font-size: 18px;
-  padding-bottom: 4px;
   text-decoration: none;
+  border: none;
+  outline: none;
 }
 ul.main-menu > li:hover {
-  border-bottom-color: $color-main;
-  -webkit-transition: border-bottom-color 300ms ease-in-out;
-     -moz-transition: border-bottom-color 300ms ease-in-out;
-      -ms-transition: border-bottom-color 300ms ease-in-out;
-       -o-transition: border-bottom-color 300ms ease-in-out;
-          transition: border-bottom-color 300ms ease-in-out;
+  background-color: $color-main;
+  opacity: .8;
+  -webkit-transition: background-color 300ms ease-in-out;
+     -moz-transition: background-color 300ms ease-in-out;
+      -ms-transition: background-color 300ms ease-in-out;
+       -o-transition: background-color 300ms ease-in-out;
+          transition: background-color 300ms ease-in-out;
+}
+ul.main-menu > li:hover > a {
+  color: white;
 }
 ul.main-menu > li.active {
-  border-bottom-color: $color-main;
+  background-color: $color-main;
+  opacity: .8;
 }
 ul.main-menu > li.active > a {
+  color: white;
   text-decoration: none;
   cursor: default;
 }
@@ -147,13 +195,15 @@ ul.main-menu > li.active > a {
 
 #footer {
   padding: 35px $page-margin;
-  /*background-color: $color-secondary-dark;*/
-  background-color: rgba(255,255,255,1);
+  background-color: $background-color;
   border-top: 1px solid $color-main;
 }
 .copyright {
   display: inline-block;
   float: left;
+  font-family: $font-texts;
+  font-size: 12px;
+  color: $color-secondary-dark;
 }
 ul.footer-menu {
   display: inline-block;
@@ -161,9 +211,60 @@ ul.footer-menu {
 }
 ul.footer-menu > li,
 ul.footer-menu > li > a {
-  line-height: 10px;
+  font-family: $font-titles;
+  font-size: 14px;
   color: $color-secondary-lighter;
+  padding-bottom: 2px;
+  border-bottom: 1px solid transparent;
 }
+ul.footer-menu > li > a:hover {
+  color: $color-secondary-lighter;
+  text-decoration: none;
+  border-bottom-color: $color-secondary-lighter;
+  -webkit-transition: border-bottom-color 300ms ease-in-out;
+     -moz-transition: border-bottom-color 300ms ease-in-out;
+      -ms-transition: border-bottom-color 300ms ease-in-out;
+       -o-transition: border-bottom-color 300ms ease-in-out;
+          transition: border-bottom-color 300ms ease-in-out;
+}
+ul.footer-menu > li.active > a {
+  color: #f1f1f1;
+  text-decoration: none;
+  border-bottom-color: #f1f1f1;
+  cursor: default;
+}
+
+
+/*******************
+ * Pages
+ */
+
+.section-default {
+  background-color: $section-background-color;
+  padding: 10px;
+}
+.section-default > header {
+  padding-right: 10px;
+}
+.section-default > header > h1 {
+  font-family: $font-titles;
+  font-size: 36px;
+  background-color: $color-main;
+  opacity: .8;
+  color: $background-color;
+  padding: 12px 33px 5px;
+  margin: 15px 0px 30px -44px;
+  display: inline-block;
+}
+.section-default > div {
+  padding: 0 20px;
+}
+.section-default > div > h2 {
+  color: $color-main;
+  font-family: $font-titles;
+  font-size: 30px;
+}
+
 
 
 // Component styles are injected through grunt

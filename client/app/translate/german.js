@@ -19,10 +19,10 @@ var translateGerman = {
     MENU_TITLE: 'References'
   },
   ABOUT: {
-    MENU_TITLE: 'About Us'
+    MENU_TITLE: 'About us'
   },
   CONTACT: {
-    MENU_TITLE: 'Contact Us'
+    MENU_TITLE: 'Contact us'
   },
   CAREERS: {
     MENU_TITLE: 'We are hiring!'
