@@ -91,7 +91,7 @@ ul.top-menu > li.active > a {
  */
 
 #header-main {
-  padding: 30px $page-margin;
+  padding: 0 $page-margin;
   position: fixed;
   height: $header-main-height;
   top: $header-top-height;
@@ -107,7 +107,39 @@ ul.top-menu > li.active > a {
 ul.main-menu {
   display: inline-block;
   float: right;
+  /*margin-top: 30px;*/
 }
+ul.main-menu > li {
+  height: 82px;
+  padding-top: 30px;
+  margin: 0 5px;
+  /*padding: 0 10px;*/
+  /*line-height: 18px;*/
+  border-bottom: 5px solid transparent;
+}
+ul.main-menu > li > a {
+  color: $color-main;
+  font-weight: 300;
+  font-size: 18px;
+  padding-bottom: 4px;
+  text-decoration: none;
+}
+ul.main-menu > li:hover {
+  border-bottom-color: $color-main;
+  -webkit-transition: border-bottom-color 300ms ease-in-out;
+     -moz-transition: border-bottom-color 300ms ease-in-out;
+      -ms-transition: border-bottom-color 300ms ease-in-out;
+       -o-transition: border-bottom-color 300ms ease-in-out;
+          transition: border-bottom-color 300ms ease-in-out;
+}
+ul.main-menu > li.active {
+  border-bottom-color: $color-main;
+}
+ul.main-menu > li.active > a {
+  text-decoration: none;
+  cursor: default;
+}
+
 
 /*******************
  * Footer
@@ -115,7 +147,9 @@ ul.main-menu {
 
 #footer {
   padding: 35px $page-margin;
-  background-color: $color-secondary-dark;
+  /*background-color: $color-secondary-dark;*/
+  background-color: rgba(255,255,255,1);
+  border-top: 1px solid $color-main;
 }
 .copyright {
   display: inline-block;

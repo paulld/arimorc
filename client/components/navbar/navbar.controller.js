@@ -18,7 +18,7 @@ angular.module('arimorcApp')
     };
 
     $scope.isActive = function(route) {
-      return route === $location.path();
+      return (route === $location.path())? 'active' : '';
     };
 
     $scope.changeLanguage = function (langKey) {

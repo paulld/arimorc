@@ -17,14 +17,24 @@
   <div id="header-main">
     <div class="container">
       <div class="logo">
-        
+        <img src="assets/images/arimor_consulting_logo_colors_expanded.png" alt="ArimorC logo">
       </div>
       <ul class="main-menu list-inline">
-        <li><a href="/">{{ 'HOME.MENU_TITLE' | translate }}</a></li>
-        <li><a href="/our-expertise">{{ 'EXPERTISE.MENU_TITLE' | translate }}</a></li>
-        <li><a href="/references">{{ 'REFERENCES.MENU_TITLE' | translate }}</a></li>
-        <li><a href="/about-us">{{ 'ABOUT.MENU_TITLE' | translate }}</a></li>
-        <li><a href="/contact-us">{{ 'CONTACT.MENU_TITLE' | translate }}</a></li>
+        <li ng-class="isActive('/')">
+          <a href="/">{{ 'HOME.MENU_TITLE' | translate }}</a>
+        </li>
+        <li ng-class="isActive('/our-expertise')">
+          <a href="/our-expertise">{{ 'EXPERTISE.MENU_TITLE' | translate }}</a>
+        </li>
+        <li ng-class="isActive('/references')">
+          <a href="/references">{{ 'REFERENCES.MENU_TITLE' | translate }}</a>
+        </li>
+        <li ng-class="isActive('/about-us')">
+          <a href="/about-us">{{ 'ABOUT.MENU_TITLE' | translate }}</a>
+        </li>
+        <li ng-class="isActive('/contact-us')">
+          <a href="/contact-us">{{ 'CONTACT.MENU_TITLE' | translate }}</a>
+        </li>
       </ul>
     </div>
   </div>
