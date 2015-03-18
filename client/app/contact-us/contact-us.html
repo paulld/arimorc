@@ -4,6 +4,15 @@
       <h1>{{ 'CONTACT_US.TITLE' | translate }}</h1>
     </header>
     <div>
+      <p ng-show="sentWithSuccess">{{ 'CONTACT_US.SUCCESS_MESSAGE' | translate }}</p>
+      <p ng-show="sentWithError">{{ 'CONTACT_US.ERROR_MESSAGE' | translate }}</p>
+      <form class="contact-form" ng-submit="postMail()" novalidate>
+        <input class="form-control" type="text" ng-model="name" placeholder="{{ 'CONTACT_US.PLACEHOLDERS.NAME' | translate }}">
+        <input class="form-control" type="text" ng-model="company" placeholder="{{ 'CONTACT_US.PLACEHOLDERS.COMPANY' | translate }}">
+        <input class="form-control" type="text" ng-model="email" placeholder="{{ 'CONTACT_US.PLACEHOLDERS.EMAIL' | translate }}">
+        <textarea class="form-control" ng-model="message" placeholder="{{ 'CONTACT_US.PLACEHOLDERS.MESSAGE' | translate }}">{{message}}</textarea>
+        <input type="submit" value="Submit">
+      </form>
     </div>
   </section>
 </div>

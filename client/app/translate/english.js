@@ -34,7 +34,15 @@ var translateEnglish = {
   },
   CONTACT_US: {
     MENU_TITLE: 'Contact us',
-    TITLE: 'Contact us'
+    TITLE: 'Contact us',
+    PLACEHOLDERS: {
+      NAME: 'Your Name',
+      EMAIL: 'Your Email',
+      COMPANY: 'Your Company',
+      MESSAGE: 'Enter your message',
+    },
+    SUCCESS_MESSAGE: 'Thank you for your message, we will come back to you shortly.',
+    ERROR_MESSAGE: 'Sorry, something went wrong. Please check your input and submit again.'
   },
   CAREERS: {
     MENU_TITLE: 'We are hiring!',
