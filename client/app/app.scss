@@ -201,8 +201,8 @@ ul.main-menu > li.active > a {
 .copyright {
   display: inline-block;
   float: left;
-  font-family: $font-texts;
-  font-size: 12px;
+  font-family: $font-titles;
+  font-size: 14px;
   color: $color-secondary-dark;
 }
 ul.footer-menu {
@@ -213,14 +213,14 @@ ul.footer-menu > li,
 ul.footer-menu > li > a {
   font-family: $font-titles;
   font-size: 14px;
-  color: $color-secondary-lighter;
+  color: $color-secondary-normal;
   padding-bottom: 2px;
   border-bottom: 1px solid transparent;
 }
 ul.footer-menu > li > a:hover {
-  color: $color-secondary-lighter;
+  color: $color-secondary-dark;
   text-decoration: none;
-  border-bottom-color: $color-secondary-lighter;
+  border-bottom-color: $color-secondary-dark;
   -webkit-transition: border-bottom-color 300ms ease-in-out;
      -moz-transition: border-bottom-color 300ms ease-in-out;
       -ms-transition: border-bottom-color 300ms ease-in-out;
@@ -228,9 +228,9 @@ ul.footer-menu > li > a:hover {
           transition: border-bottom-color 300ms ease-in-out;
 }
 ul.footer-menu > li.active > a {
-  color: #f1f1f1;
+  color: $color-secondary-dark;
   text-decoration: none;
-  border-bottom-color: #f1f1f1;
+  border-bottom-color: $color-secondary-dark;
   cursor: default;
 }
 
@@ -238,6 +238,16 @@ ul.footer-menu > li.active > a {
 /*******************
  * Pages
  */
+
+p {
+  font-family: $font-texts;
+  line-height: 26px;
+  font-weight: 100;
+  font-size: 14px;
+}
+h1, h2, h3 {
+  font-family: $font-titles;
+}
 
 .section-default {
   background-color: $section-background-color;
@@ -247,7 +257,6 @@ ul.footer-menu > li.active > a {
   padding-right: 10px;
 }
 .section-default > header > h1 {
-  font-family: $font-titles;
   font-size: 36px;
   background-color: $color-main;
   opacity: .8;
@@ -261,7 +270,6 @@ ul.footer-menu > li.active > a {
 }
 .section-default > div > h2 {
   color: $color-main;
-  font-family: $font-titles;
   font-size: 30px;
 }
 
