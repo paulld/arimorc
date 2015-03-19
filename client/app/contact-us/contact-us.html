@@ -11,7 +11,7 @@
       <p class="contact-form-error" ng-show="sentWithError">
         {{ 'CONTACT_US.ERROR_MESSAGE' | translate }}
       </p>
-      <p class="contact-form-error" ng-show="contactForm.$submitted && contactForm.$invalid && !formSent">
+      <p class="contact-form-error" ng-show="contactForm.$submitted && contactForm.$invalid && !sentWithSuccess">
         {{ 'CONTACT_US.EMPTY_FIELD_MESSAGE' | translate }}
       </p>
       <!-- <ul>

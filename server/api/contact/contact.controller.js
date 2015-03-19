@@ -8,14 +8,22 @@ var transporter = nodemailer.createTransport({
 });
 
 exports.send = function(req,res){
+  console.log(req.body);
+  var htmlContent = '<p>A new message was posted on ArimorC contact form.</p>' +
+                    '<p><b>Name: </b>' + req.body.name + 
+                    '<br><b>Company: </b>' + req.body.company + 
+                    '<br><b>Email: </b>' + req.body.email + 
+                    '<br><b>Message: </b>' + req.body.message + '</p>' +
+                    '<p>NB: do not reply to this email directly</p>';
   var mailOptions = {
-    to: 'paul.lugagnedelpon@gmail.com',
+    to: 'paulld.web@gmail.com',
     subject: 'ArimorC contact form - new message',
-    from: req.body.from + '<' + req.body.from + '>',
-    sender: req.body.from,
-    replyTo: req.body.from,
-    html: '<p>A new message was posted on ArimorC contact form.</p><p><b>Name: </b>' + req.body.name + '<br><b>Company: </b>' + req.body.company + '<br><b>Email: </b>' + req.body.email + '<br><b>Message: </b>' + req.body.message + '</p>'
+    from: req.body.name + ' <' + req.body.email + '>',
+    sender: req.body.email,
+    replyTo: req.body.name,
+    html: htmlContent
   };
+  console.log(mailOptions);
   transporter.sendMail(mailOptions, function(err, info){
     if (err) {
       console.log(err);
