@@ -23,11 +23,28 @@ var translateGerman = {
   },
   ABOUT_US: {
     MENU_TITLE: 'About us',
-    TITLE: 'About Arimor Consulting'
+    TITLE_1: 'Arimor Consulting',
+    PARAGRAPH_1_1: '',
+    PARAGRAPH_1_2: 'Our team is composed by multi and complementary skills\' members. They are our wealth, our representatives and your partners. Highly qualified and expert in their area, they know and understand your problematics and they are able to deliver you tailored solutions.',
+    PARAGRAPH_1_3: 'We devote ourselves fully to the success of our customers and the project in which we are involved.',
+    TITLE_2: 'Our History',
+    PARAGRAPH_2_1: 'ARIMOR Consulting was founded by Romaric Barthe in 2013. Starting January 2014, Paul Schombara jumps on board and ARIMOR Consulting is soaring.',
+    TITLE_3: 'Meet our Team',
+    PARAGRAPH_3_1: ''
   },
   CONTACT_US: {
     MENU_TITLE: 'Contact us',
-    TITLE: 'Contact us'
+    TITLE: 'Contact us',
+    PLACEHOLDERS: {
+      NAME: 'Your Name',
+      EMAIL: 'Your Email',
+      COMPANY: 'Your Company',
+      MESSAGE: 'Enter your message',
+    },
+    SUBMIT: 'Send',
+    EMPTY_FIELD_MESSAGE: 'Some required fields are missing. Please review your input.',
+    SUCCESS_MESSAGE: 'Thank you for your message! We will come back to you shortly.',
+    ERROR_MESSAGE: 'Sorry, something went wrong. Please check your input and submit again.'
   },
   CAREERS: {
     MENU_TITLE: 'We are hiring!',

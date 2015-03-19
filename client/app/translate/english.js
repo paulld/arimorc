@@ -43,12 +43,14 @@ var translateEnglish = {
     },
     SUBMIT: 'Send',
     EMPTY_FIELD_MESSAGE: 'Some required fields are missing. Please review your input.',
-    SUCCESS_MESSAGE: 'Thank you for your message, we will come back to you shortly.',
+    SUCCESS_MESSAGE: 'Thank you for your message! We will come back to you shortly.',
     ERROR_MESSAGE: 'Sorry, something went wrong. Please check your input and submit again.'
   },
   CAREERS: {
     MENU_TITLE: 'We are hiring!',
-    TITLE: 'We are hiring!'
+    TITLE: 'We are hiring!',
+    PARAGRAPH_1: 'We are a growing firm and are always looking for talented people to join our team.',
+    PARAGRAPH_2: ''
   },
   INTRANET: {
     MENU_TITLE: 'Intranet'

@@ -22,12 +22,29 @@ var translateFrench = {
     TITLE: 'Références'
   },
   ABOUT_US: {
-    MENU_TITLE: 'A Propos',
-    TITLE: 'A Propos d\'ArimorC'
+    MENU_TITLE: 'About us',
+    TITLE_1: 'Arimor Consulting',
+    PARAGRAPH_1_1: '',
+    PARAGRAPH_1_2: 'Our team is composed by multi and complementary skills\' members. They are our wealth, our representatives and your partners. Highly qualified and expert in their area, they know and understand your problematics and they are able to deliver you tailored solutions.',
+    PARAGRAPH_1_3: 'We devote ourselves fully to the success of our customers and the project in which we are involved.',
+    TITLE_2: 'Our History',
+    PARAGRAPH_2_1: 'ARIMOR Consulting was founded by Romaric Barthe in 2013. Starting January 2014, Paul Schombara jumps on board and ARIMOR Consulting is soaring.',
+    TITLE_3: 'Meet our Team',
+    PARAGRAPH_3_1: ''
   },
   CONTACT_US: {
     MENU_TITLE: 'Contacts',
-    TITLE: 'Contactez-nous'
+    TITLE: 'Contactez-nous',
+    PLACEHOLDERS: {
+      NAME: 'Nom',
+      EMAIL: 'Adresse Email',
+      COMPANY: 'Entreprise',
+      MESSAGE: 'Votre message',
+    },
+    SUBMIT: 'Envoyer',
+    EMPTY_FIELD_MESSAGE: 'Certains champs du formulaire manquent ou n\'ont pas la bonne forme. Veuillez vérifier vos informations.',
+    SUCCESS_MESSAGE: 'Merci pour votre message ! Nous vous répondrons dans les meilleurs délais.',
+    ERROR_MESSAGE: 'Désolés, le message n\a pas été envoyé. Veuillez vérifier les champs du formulaire et le soumettre à nouveau.'
   },
   CAREERS: {
     MENU_TITLE: 'Nous recrutons!',

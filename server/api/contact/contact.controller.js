@@ -8,7 +8,6 @@ var transporter = nodemailer.createTransport({
 });
 
 exports.send = function(req,res){
-  console.log(req.body);
   var htmlContent = '<p>A new message was posted on ArimorC contact form.</p>' +
                     '<p><b>Name: </b>' + req.body.name + 
                     '<br><b>Company: </b>' + req.body.company + 
