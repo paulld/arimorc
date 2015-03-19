@@ -11,7 +11,10 @@ var translateEnglish = {
   BUTTON_LANG_FR: 'Français',
   HOME: {
     MENU_TITLE: 'Home',
-    TITLE: 'Welcome to ArimorC'
+    TITLE: 'About Arimor Consulting',
+    TAGLINE: 'We are an independent consultancy firm,<br>expert in SAP Financial Consolidation.<br>We provide support and assistance to our clients in Germany, France and more, for the development and optimisation of their financial organisation',
+    READ_MORE: 'Read More',
+    TITLE_2: 'Recent News'
   },
   EXPERTISE: {
     MENU_TITLE: 'Our Expertise',
@@ -88,4 +91,5 @@ angular.module('arimorcApp')
   .config(['$translateProvider', function ($translateProvider) {
     $translateProvider.translations('en', translateEnglish);
     $translateProvider.preferredLanguage('en');
+    $translateProvider.fallbackLanguage('en');
   }]);

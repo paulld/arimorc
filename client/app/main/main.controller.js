@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('arimorcApp')
-  .controller('MainCtrl', function ($scope, $http) {
+  .controller('MainCtrl', function ($scope, $http, $state) {
     $scope.awesomeThings = [];
 
     $http.get('/api/things').success(function(awesomeThings) {
@@ -19,4 +19,8 @@ angular.module('arimorcApp')
     $scope.deleteThing = function(thing) {
       $http.delete('/api/things/' + thing._id);
     };
+
+    $scope.goTo = function(uri) {
+      $state.go(uri);
+    }
   });

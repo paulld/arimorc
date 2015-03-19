@@ -1,6 +1,6 @@
 .contact-form input,
 .contact-form textarea,
-.contact-form button {
+button.big-button {
   border-radius: 0 !important;
 }
 
@@ -14,7 +14,7 @@
   border-color: #f0f0f0;
   height: 52px;
   margin-bottom: 13px;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 100;
   padding-top: 9px;
   
@@ -31,7 +31,7 @@
 }
 .contact-form-right textarea {
   border-color: #f0f0f0;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 100;
   height: 180px;
   margin-bottom: 20px;
@@ -42,7 +42,7 @@
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 3px $color-main-opacity-6;
   }
 }
-.contact-form-right button {
+button.big-button {
   margin-left: 150px;
   padding: 10px 20px 5px;
   margin-bottom: -30px;
@@ -63,14 +63,14 @@
     outline-width: 2px;
   }
 }
-.contact-form-right button span {
+button.big-button span {
   font-family: $font-titles;
   margin-right: 11px;
   position: relative;
   top: -5px;
-  font-size: 16px;
+  font-size: 17px;
 }
-.contact-form-right button:hover svg {
+button.big-button:hover svg {
   color: $background-color;
   margin: 0 -3px 0 3px;
   -webkit-transition: margin 200ms ease-in-out;
@@ -79,7 +79,7 @@
        -o-transition: margin 200ms ease-in-out;
           transition: margin 200ms ease-in-out;
 }
-.contact-form-right button:hover svg * {
+button.big-button:hover svg * {
   stroke: $background-color;
 }
 
@@ -92,6 +92,6 @@
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 3px rgba(255,0,0,.6);
 }
 #main p.contact-form-success {
-  font-size: 17px;
+  font-size: 18px;
   margin-bottom: 20px;
 }
