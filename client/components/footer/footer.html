@@ -4,17 +4,17 @@
       &copy; Copyright - Arimor Consulting
     </div>
     <ul class="footer-menu list-inline">
-      <li ng-class="isActive('/contact-us')">
-        <a href="/contact-us">{{ 'CONTACT_US.MENU_TITLE' | translate }}</a>
+      <li ng-class="isActive('/contact-us')" ng-click="goTo('contact-us')">
+        <a href="">{{ 'CONTACT_US.MENU_TITLE' | translate }}</a>
       </li>
-      <li ng-class="isActive('/careers')">
-        <a href="/careers">{{ 'CAREERS.MENU_TITLE' | translate }}</a>
+      <li ng-class="isActive('/careers')" ng-click="goTo('careers')">
+        <a href="">{{ 'CAREERS.MENU_TITLE' | translate }}</a>
       </li>
       <li>
         <a href="http://intranet.arimor-consulting.de/">{{ 'INTRANET.MENU_TITLE' | translate }}</a>
       </li>
-      <li ng-class="isActive('/impressum')">
-        <a href="/impressum">{{ 'IMPRESSUM.MENU_TITLE' | translate }}</a>
+      <li ng-class="isActive('/impressum')" ng-click="goTo('impressum')">
+        <a href="">{{ 'IMPRESSUM.MENU_TITLE' | translate }}</a>
       </li>
     </ul>
   </div>

@@ -21,20 +21,20 @@
         <img src="assets/images/arimor_consulting_logo_colors_expanded.png" alt="ArimorC logo">
       </div>
       <ul class="main-menu list-inline">
-        <li ng-class="isActive('/')">
-          <a href="/">{{ 'HOME.MENU_TITLE' | translate }}</a>
+        <li ng-class="isActive('/')" ng-click="goTo('main')">
+          <a href="">{{ 'HOME.MENU_TITLE' | translate }}</a>
         </li>
-        <li ng-class="isActive('/our-expertise')">
-          <a href="/our-expertise">{{ 'EXPERTISE.MENU_TITLE' | translate }}</a>
+        <li ng-class="isActive('/our-expertise')" ng-click="goTo('expertise')">
+          <a href="">{{ 'EXPERTISE.MENU_TITLE' | translate }}</a>
         </li>
-        <li ng-class="isActive('/references')">
-          <a href="/references">{{ 'REFERENCES.MENU_TITLE' | translate }}</a>
+        <li ng-class="isActive('/references')" ng-click="goTo('references')">
+          <a href="">{{ 'REFERENCES.MENU_TITLE' | translate }}</a>
         </li>
-        <li ng-class="isActive('/about-us')">
-          <a href="/about-us">{{ 'ABOUT_US.MENU_TITLE' | translate }}</a>
+        <li ng-class="isActive('/about-us')" ng-click="goTo('about-us')">
+          <a href="">{{ 'ABOUT_US.MENU_TITLE' | translate }}</a>
         </li>
-        <li ng-class="isActive('/contact-us')">
-          <a href="/contact-us">{{ 'CONTACT_US.MENU_TITLE' | translate }}</a>
+        <li ng-class="isActive('/contact-us')" ng-click="goTo('contact-us')">
+          <a href="">{{ 'CONTACT_US.MENU_TITLE' | translate }}</a>
         </li>
       </ul>
     </div>
