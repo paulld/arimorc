@@ -1,0 +1,93 @@
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  border-radius: 0 !important;
+}
+
+.contact-form-left {
+  display: inline-block;
+  width: 40%;
+  float: left;
+  margin-right: 30px;
+}
+.contact-form-left input {
+  border-color: #f0f0f0;
+  height: 52px;
+  margin-bottom: 13px;
+  font-size: 17px;
+  font-weight: 100;
+  padding-top: 9px;
+  
+  &:focus {
+    border-color: $color-main;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 3px $color-main-opacity-6;
+  }
+}
+
+.contact-form-right {
+  display: inline-block;
+  width: 55%;
+  /*float: right;*/
+}
+.contact-form-right textarea {
+  border-color: #f0f0f0;
+  font-size: 17px;
+  font-weight: 100;
+  height: 180px;
+  margin-bottom: 20px;
+  padding-top: 14px;
+
+  &:focus {
+    border-color: $color-main;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 3px $color-main-opacity-6;
+  }
+}
+.contact-form-right button {
+  margin-left: 150px;
+  padding: 10px 20px 5px;
+  margin-bottom: -30px;
+  -webkit-transition: background 300ms ease-in-out;
+     -moz-transition: background 300ms ease-in-out;
+      -ms-transition: background 300ms ease-in-out;
+       -o-transition: background 300ms ease-in-out;
+          transition: background 300ms ease-in-out;
+
+  &:hover, &:focus {
+    background-color: $color-main;
+    opacity: .8;
+    color: $background-color;
+    box-shadow: none;
+  }
+  &:focus {
+    outline-color: #eee;
+    outline-width: 2px;
+  }
+}
+.contact-form-right button span {
+  font-family: $font-titles;
+  margin-right: 11px;
+  position: relative;
+  top: -5px;
+  font-size: 16px;
+}
+.contact-form-right button:hover svg {
+  color: $background-color;
+  margin: 0 -3px 0 3px;
+  -webkit-transition: margin 200ms ease-in-out;
+     -moz-transition: margin 200ms ease-in-out;
+      -ms-transition: margin 200ms ease-in-out;
+       -o-transition: margin 200ms ease-in-out;
+          transition: margin 200ms ease-in-out;
+}
+.contact-form-right button:hover svg * {
+  stroke: $background-color;
+}
+
+.contact-form-error {
+  color: rgba(255, 0, 0, 0.7);
+}
+.not-sent.ng-submitted .contact-form-left input.ng-invalid, 
+.not-sent.ng-submitted .contact-form-right textarea.ng-invalid {
+  border-color: rgba(255,0,0,.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 3px rgba(255,0,0,.6);
+}

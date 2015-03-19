@@ -3,6 +3,7 @@ $fa-font-path: "/bower_components/font-awesome/fonts";
 /*$s3-font-path: "https://s3.amazonaws.com/arimorc/fonts/";*/
 
 $color-main: rgb(154,187,89);
+$color-main-opacity-6: rgba(154,187,89,.6);
 $background-color: rgb(255,255,255);
 $section-background-color: rgb(250,250,250);
 $color-secondary-dark: rgb(68,68,68);
@@ -240,7 +241,8 @@ ul.footer-menu > li.active > a {
  * Pages
  */
 
-p {
+#main p,
+#main ul > li {
   font-family: $font-texts;
   line-height: 26px;
   font-weight: 100;

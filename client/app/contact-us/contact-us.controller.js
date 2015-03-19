@@ -5,34 +5,35 @@ angular.module('arimorcApp')
 
     $scope.sentWithSuccess = false;
     $scope.sentWithError = false;
+    $scope.formClass = 'not-sent';
+    $scope.postData = {};
 
-    $scope.postMail = function () {      
-      var postData = {
-        name: $scope.name,
-        company: $scope.company,
-        email: $scope.email,
-        message: $scope.message
-      };
-      $http.post('/api/contacts', postData).
-        success(function(data) {
-        }).
-        error(function(data) {
+    $scope.postMail = function (contact) {
+      if ($scope.contactForm.$invalid === true) {
+        return
+      }
+
+      $scope.postData = angular.copy(contact);
+
+      $http.post('/api/contacts', $scope.postData)
+        .success(function(data) {
+          // Success message already sent
+        })
+        .error(function(data) {
           // Revert Success message if error
           $scope.sentWithSuccess = true;
           $scope.sentWithSuccess = false;
-          $scope.name = postData.name;
-          $scope.company = postData.company;
-          $scope.email = postData.email;
-          $scope.message = postData.message;
+          $scope.contat = angular.copy($scope.postData);
         });
       
       // Show Success message before asynchronous response
       $timeout(function(){
         $scope.sentWithSuccess = true;
-        $scope.name = '';
-        $scope.company = '';
-        $scope.email = '';
-        $scope.message = '';
+        $scope.contact.name = '';
+        $scope.contact.company = '';
+        $scope.contact.email = '';
+        $scope.contact.message = '';
+        $scope.formClass = '';
       }, 1000);
 
     };

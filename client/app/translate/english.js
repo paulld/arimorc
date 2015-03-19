@@ -41,6 +41,8 @@ var translateEnglish = {
       COMPANY: 'Your Company',
       MESSAGE: 'Enter your message',
     },
+    SUBMIT: 'Send',
+    EMPTY_FIELD_MESSAGE: 'Some required fields are missing. Please review your input.',
     SUCCESS_MESSAGE: 'Thank you for your message, we will come back to you shortly.',
     ERROR_MESSAGE: 'Sorry, something went wrong. Please check your input and submit again.'
   },

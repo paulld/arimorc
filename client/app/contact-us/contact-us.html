@@ -4,15 +4,37 @@
       <h1>{{ 'CONTACT_US.TITLE' | translate }}</h1>
     </header>
     <div>
-      <p ng-show="sentWithSuccess">{{ 'CONTACT_US.SUCCESS_MESSAGE' | translate }}</p>
-      <p ng-show="sentWithError">{{ 'CONTACT_US.ERROR_MESSAGE' | translate }}</p>
-      <form class="contact-form" ng-submit="postMail()" novalidate>
-        <input class="form-control" type="text" ng-model="name" placeholder="{{ 'CONTACT_US.PLACEHOLDERS.NAME' | translate }}">
-        <input class="form-control" type="text" ng-model="company" placeholder="{{ 'CONTACT_US.PLACEHOLDERS.COMPANY' | translate }}">
-        <input class="form-control" type="text" ng-model="email" placeholder="{{ 'CONTACT_US.PLACEHOLDERS.EMAIL' | translate }}">
-        <textarea class="form-control" ng-model="message" placeholder="{{ 'CONTACT_US.PLACEHOLDERS.MESSAGE' | translate }}">{{message}}</textarea>
-        <input type="submit" value="Submit">
+      
+      <p ng-show="sentWithSuccess">
+        {{ 'CONTACT_US.SUCCESS_MESSAGE' | translate }}
+      </p>
+      <p class="contact-form-error" ng-show="sentWithError">
+        {{ 'CONTACT_US.ERROR_MESSAGE' | translate }}
+      </p>
+      <p class="contact-form-error" ng-show="contactForm.$submitted && contactForm.$invalid && !formSent">
+        {{ 'CONTACT_US.EMPTY_FIELD_MESSAGE' | translate }}
+      </p>
+      <!-- <ul>
+        <li ng-show="contactForm.$submitted && contactForm.name.$invalid">Name</li>
+        <li ng-show="contactForm.$submitted && contactForm.email.$invalid">Email</li>
+        <li ng-show="contactForm.$submitted && contactForm.message.$invalid">Message</li>
+      </ul> -->
+      
+      <form name="contactForm" class="contact-form" ng-class="formClass" novalidate>
+        <div class="contact-form-left">
+          <input class="form-control" type="text" name="name" ng-model="contact.name" placeholder="{{ 'CONTACT_US.PLACEHOLDERS.NAME' | translate }}" required>
+          <input class="form-control" type="text" name="company" ng-model="contact.company" placeholder="{{ 'CONTACT_US.PLACEHOLDERS.COMPANY' | translate }}">
+          <input class="form-control" type="email" name="email" ng-model="contact.email" placeholder="{{ 'CONTACT_US.PLACEHOLDERS.EMAIL' | translate }}" required>
+        </div>
+        <div class="contact-form-right">
+          <textarea class="form-control" name="message" ng-model="contact.message" placeholder="{{ 'CONTACT_US.PLACEHOLDERS.MESSAGE' | translate }}" required>{{message}}</textarea>
+          <button class="btn" type="submit" ng-click="postMail(contact)">
+            <span>{{ 'CONTACT_US.SUBMIT' | translate }}</span>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="13px" height="22.636px" viewBox="0 0 17.079 29.738" xml:space="preserve" preserveAspectRatio="xMinYMin meet"><polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="0.336,0.371 16.334,14.869 0.336,29.367 "></polyline></svg>
+          </button>
+        </div>
       </form>
+
     </div>
   </section>
 </div>
