@@ -12,7 +12,7 @@ var translateEnglish = {
   HOME: {
     MENU_TITLE: 'Home',
     TITLE: 'About Arimor Consulting',
-    TAGLINE: 'We are an independent consultancy firm,<br>expert in SAP Financial Consolidation.<br>We provide support and assistance to our clients in Germany, France and more, for the development and optimisation of their financial organisation',
+    TAGLINE: 'We are an independent consultancy firm,<br>expert in SAP Financial Consolidation.<br>We provide support and assistance to our clients in Germany, France and more, for the development and optimisation of their financial organisation.',
     READ_MORE: 'Read More',
     TITLE_2: 'Recent News',
     NEWS_1_TITLE: '',
@@ -25,7 +25,7 @@ var translateEnglish = {
   EXPERTISE: {
     MENU_TITLE: 'Our Expertise',
     TITLE: 'Our Expertise',
-    PARAGRAPH: 'Arimor Consulting is the partner of financial services.<br>We work with our clients and support them for the long term in most of their projects. Our flexibility, experience and commitment make Arimor Consulting an asset that fully meet your needs.<br>In our fields, and given the quality of our services, our pricing offer is one of the most competitive.',
+    PARAGRAPH: 'Arimor Consulting is the partner of financial services.<br>We work with our clients and support them for the long term in most of their projects. Our flexibility, experience and commitment make Arimor Consulting an asset<br>that fully meet your needs.<br>In our fields, and given the quality of our services, our pricing offer is one of the most competitive.',
     EXPERTISE_1: {
       TITLE: 'Implementation',
       CONTENT: 'Cras varius. Morbi vestibulum volutpat enim. Aliquam erat volutpat. Curabitur a felis in nunc fringilla tristique.'
@@ -49,25 +49,24 @@ var translateEnglish = {
   },
   ABOUT_US: {
     MENU_TITLE: 'About us',
-    ABOUT: {
-      TITLE: 'Arimor Consulting',
-      PARAGRAPH_1: '',
-      PARAGRAPH_2: 'Our team is composed by multi and complementary skills\' members. They are our wealth, our representatives and your partners. Highly qualified and expert in their area, they know and understand your problematics and they are able to deliver you tailored solutions.',
-      PARAGRAPH_3: 'We devote ourselves fully to the success of our customers and the project in which we are involved.'
-    },
-    HISTORY: {
-      TITLE: 'Our History',
-      PARAGRAPH_1: 'ARIMOR Consulting was founded by Romaric Barthe in 2013.',
-      PARAGRAPH_2: 'Starting January 2014, Paul Schombara jumps on board and ARIMOR Consulting is soaring.'
+    TITLE: 'About Arimor Consulting',
+    INTRO: {
+      TITLE: 'What we do',
+      PARAGRAPH_1: 'Our team is composed by multi and complementary skills\' members. They are our wealth, our representatives and your partners. Highly qualified and expert in their area, they know and understand your problematics and they are able to deliver you tailored solutions.',
+      PARAGRAPH_2: 'We devote ourselves fully to the success of our customers and the project in which we are involved.',
+      PARAGRAPH_3: 'ARIMOR Consulting was founded by Romaric Barthe in 2013.',
+      PARAGRAPH_4: 'Starting January 2014, Paul Schombara jumps on board and ARIMOR Consulting is soaring.'
     },
     TEAM: {
       TITLE: 'Meet our Team',
-      PARAGRAPH_1: ''
+      R_BARTHE_BIO: 'Project management<br>Implementation of SAP FC in regards of IFRS/FINREP consolidations, Setup of a multi dimensional data modell, SQL development in SAP FC for specific requirement<br>Analysis and concept on SAP FC<br>Introduction\'s process of SAP FC: From conception, implementation to Historical Data Recovery, training and Go Live<br>Administration of consolidation systems (Financial and reporting process) (SAP FC, HFM)<br>Conception and realisation of reporting systems - Excel or Web<br>Financial Statements realisation and consolidation support',
+      P_SCHOMBARA_BIO: 'Advisory of a global acting media group in generating internal and external financial statements<br>Implementation of SAP FC in regards of IFRS/FINREP consolidations, Setup of a multi dimensional data modell<br>Analysis and concept on SAP FC<br>Historical data recovery within a SAP FC implementation project<br>Experience in migrating from SAP FC Version 7.5 to 10.0 including test conception and cases and testing<br>Administration of data packages and consolidation preparation (including creation of scopes, exchange rate tables and consolidation definition)<br>Financial Information Management'
     }
   },
   CONTACT_US: {
     MENU_TITLE: 'Contact us',
     TITLE: 'Contact us',
+    INTRO: 'Please leave us your details and we will contact you shortly.',
     PLACEHOLDERS: {
       NAME: 'Your Name',
       EMAIL: 'Your Email',
@@ -76,7 +75,7 @@ var translateEnglish = {
     },
     SUBMIT: 'Send',
     EMPTY_FIELD_MESSAGE: 'Some required fields are missing. Please review your input.',
-    SUCCESS_MESSAGE: 'Thank you for your message! We will come back to you shortly.',
+    SUCCESS_MESSAGE: 'Thank you for your message! We will come back to you as soon as possible.',
     ERROR_MESSAGE: 'Sorry, something went wrong. Please check your input and submit again.'
   },
   CAREERS: {

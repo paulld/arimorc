@@ -4,16 +4,13 @@
       <h1>{{ 'CONTACT_US.TITLE' | translate }}</h1>
     </header>
     <div>
+      <p class="contact-form-success" ng-bind-html=" 'CONTACT_US.INTRO' | translate "></p>
+
+      <p class="contact-form-success" ng-show="sentWithSuccess" ng-bind-html=" 'CONTACT_US.SUCCESS_MESSAGE' | translate "></p>
+
+      <p class="contact-form-error" ng-show="sentWithError" ng-bind-html=" 'CONTACT_US.ERROR_MESSAGE' | translate "></p>
       
-      <p class="contact-form-success" ng-show="sentWithSuccess">
-        {{ 'CONTACT_US.SUCCESS_MESSAGE' | translate }}
-      </p>
-      <p class="contact-form-error" ng-show="sentWithError">
-        {{ 'CONTACT_US.ERROR_MESSAGE' | translate }}
-      </p>
-      <p class="contact-form-error" ng-show="contactForm.$submitted && contactForm.$invalid && !sentWithSuccess">
-        {{ 'CONTACT_US.EMPTY_FIELD_MESSAGE' | translate }}
-      </p>
+      <p class="contact-form-error" ng-show="contactForm.$submitted && contactForm.$invalid && !sentWithSuccess" ng-bind-html=" 'CONTACT_US.EMPTY_FIELD_MESSAGE' | translate "></p>
       <!-- <ul>
         <li ng-show="contactForm.$submitted && contactForm.name.$invalid">Name</li>
         <li ng-show="contactForm.$submitted && contactForm.email.$invalid">Email</li>
