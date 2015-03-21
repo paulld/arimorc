@@ -13,7 +13,7 @@ var translateEnglish = {
     MENU_TITLE: 'Home',
     TITLE: 'About Arimor Consulting',
     TAGLINE: 'We are an independent consultancy firm,<br>expert in SAP Financial Consolidation.<br>We provide support and assistance to our clients in Germany, France and more, for the development and optimisation of their financial organisation.',
-    READ_MORE: 'Read More',
+    READ_MORE_BUTTON: 'Read More',
     TITLE_2: 'Recent News',
     NEWS_1_TITLE: '',
     NEWS_1_CONTENT: '',
@@ -25,6 +25,7 @@ var translateEnglish = {
   EXPERTISE: {
     MENU_TITLE: 'Our Expertise',
     TITLE: 'Our Expertise',
+    READ_MORE_BUTTON: 'Read More',
     PARAGRAPH: 'Arimor Consulting is the partner of financial services.<br>We work with our clients and support them for the long term in most of their projects. Our flexibility, experience and commitment make Arimor Consulting an asset<br>that fully meet your needs.<br>In our fields, and given the quality of our services, our pricing offer is one of the most competitive.',
     EXPERTISE_1: {
       TITLE: 'Implementation',

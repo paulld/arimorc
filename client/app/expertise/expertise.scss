@@ -1,5 +1,5 @@
 .expertise-intro {
-  margin-bottom: 70px;
+  margin-bottom: 20px;
   text-align: right;
   position: relative;
 }
@@ -9,10 +9,14 @@
 .expertise-intro > div {
   width: 55%;
   position: absolute;
-  bottom: 70px;
+  top: 80px;
   background-color: rgba(255,255,255,.9);
   font-size: 25px;
   padding: 20px 30px;
+}
+.expertise-intro > div > button {
+  float: right;
+  margin-top: 20px;
 }
 .expertise-intro > div > p {
   font-size: 21px;
@@ -21,7 +25,9 @@
   line-height: 30px;
   margin: 0;
 }
-
+.expertise-items {
+  margin: 60px 0 30px;
+}
 .expertise-items > div {
   display: inline-block;
   width: 23%;

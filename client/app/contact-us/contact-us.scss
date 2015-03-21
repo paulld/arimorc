@@ -52,15 +52,16 @@ button.big-button {
        -o-transition: background 300ms ease-in-out;
           transition: background 300ms ease-in-out;
 
-  &:hover, &:focus {
+  &:hover {
     background-color: $color-main;
     opacity: .8;
     color: $background-color;
     box-shadow: none;
   }
   &:focus {
-    outline-color: #eee;
-    outline-width: 2px;
+    // outline-color: #eee;
+    // outline-width: 2px;
+    outline: none;
   }
 }
 button.big-button span {

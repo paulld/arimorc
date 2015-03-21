@@ -15,7 +15,8 @@
     "font-awesome": ">=4.1.0",
     "lodash": "~2.4.1",
     "angular-ui-router": "~0.2.10",
-    "angular-translate": "2.6.1"
+    "angular-translate": "2.6.1",
+    "ngSmoothScroll": "~1.7.1"
   },
   "devDependencies": {
     "angular-mocks": ">=1.2.*",
