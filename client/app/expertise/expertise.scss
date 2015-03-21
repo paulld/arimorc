@@ -4,7 +4,11 @@
   position: relative;
 }
 .expertise-intro > img {
-  width: 70%;
+  // width: 735px;
+// 
+  // height: 491px;
+  max-width: 100%;
+  height: auto;
 }
 .expertise-intro > div {
   width: 55%;

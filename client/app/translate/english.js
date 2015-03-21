@@ -13,7 +13,7 @@ var translateEnglish = {
     MENU_TITLE: 'Home',
     TITLE: 'About Arimor Consulting',
     TAGLINE: 'We are an independent consultancy firm,<br>expert in SAP Financial Consolidation.<br>We provide support and assistance to our clients in Germany, France and more, for the development and optimisation of their financial organisation.',
-    READ_MORE_BUTTON: 'Read More',
+    READ_MORE_BUTTON: 'See our expertise',
     TITLE_2: 'Recent News',
     NEWS_1_TITLE: '',
     NEWS_1_CONTENT: '',
@@ -65,7 +65,7 @@ var translateEnglish = {
     }
   },
   CONTACT_US: {
-    MENU_TITLE: 'Contact us',
+    FOOTER_TITLE: 'Contact us',
     TITLE: 'Contact us',
     INTRO: 'Please leave us your details and we will contact you shortly.',
     PLACEHOLDERS: {
@@ -80,16 +80,17 @@ var translateEnglish = {
     ERROR_MESSAGE: 'Sorry, something went wrong. Please check your input and submit again.'
   },
   CAREERS: {
-    MENU_TITLE: 'We are hiring!',
+    MENU_TITLE: 'Careers',
+    FOOTER_TITLE: 'We are hiring!',
     TITLE: 'We are hiring!',
     PARAGRAPH_1: 'We are a growing firm and are always looking for talented people to join our team.',
     PARAGRAPH_2: ''
   },
   INTRANET: {
-    MENU_TITLE: 'Intranet'
+    FOOTER_TITLE: 'Intranet'
   },
   IMPRESSUM: {
-    MENU_TITLE: 'Impressum',
+    FOOTER_TITLE: 'Impressum',
     TITLE_1: 'Impressum',
     SUB_1: 'Angaben gemäss § 5 TMG:',
     PARAGRAPH_1_1: 'ARIMOR Consulting GmbH',

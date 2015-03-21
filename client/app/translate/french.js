@@ -22,7 +22,7 @@ var translateFrench = {
     TITLE: 'Références'
   },
   ABOUT_US: {
-    MENU_TITLE: 'About us',
+    MENU_TITLE: 'A Propos de Nous',
     TITLE_1: 'Arimor Consulting',
     PARAGRAPH_1_1: '',
     PARAGRAPH_1_2: 'Our team is composed by multi and complementary skills\' members. They are our wealth, our representatives and your partners. Highly qualified and expert in their area, they know and understand your problematics and they are able to deliver you tailored solutions.',
@@ -33,7 +33,7 @@ var translateFrench = {
     PARAGRAPH_3_1: ''
   },
   CONTACT_US: {
-    MENU_TITLE: 'Contacts',
+    FOOTER_TITLE: 'Contacts',
     TITLE: 'Contactez-nous',
     PLACEHOLDERS: {
       NAME: 'Nom',
@@ -47,14 +47,15 @@ var translateFrench = {
     ERROR_MESSAGE: 'Désolés, le message n\a pas été envoyé. Veuillez vérifier les champs du formulaire et le soumettre à nouveau.'
   },
   CAREERS: {
-    MENU_TITLE: 'Nous recrutons!',
+    MENU_TITLE: 'Carrières',
+    FOOTER_TITLE: 'Nous recrutons!',
     TITLE: 'Nous recrutons!'
   },
   INTRANET: {
-    MENU_TITLE: 'Intranet'
+    FOOTER_TITLE: 'Intranet'
   },
   IMPRESSUM: {
-    MENU_TITLE: 'Impressum',
+    FOOTER_TITLE: 'Impressum',
     TITLE_1: 'Impressum',
     SUB_1: 'Angaben gemäss § 5 TMG:',
     PARAGRAPH_1_1: 'ARIMOR Consulting GmbH',
