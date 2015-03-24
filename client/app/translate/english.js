@@ -62,8 +62,9 @@ var translateEnglish = {
     TITLE: 'About Arimor Consulting',
     INTRO: {
       TITLE: 'What we do',
-      PARAGRAPH_1: 'Our team is composed by multi and complementary skills\' members.<br>They are our wealth, our representatives and your partners.<br>Highly qualified and expert in their area, they know and understand your problematics and they are able to deliver you tailored solutions. We devote ourselves fully to the success of our customers and the project in which we are involved.',
-      PARAGRAPH_2: 'ARIMOR Consulting was founded by Romaric Barthe in 2013.<br>Starting January 2014, Paul Schombara jumps on board and ARIMOR Consulting is soaring.'
+      PARAGRAPH_1: 'Our team is composed by multi and complementary skills\' members.<br>They are our wealth, our representatives and your partners.',
+      PARAGRAPH_2: 'Highly qualified and expert in their area, they know and understand your problematics and they are able to deliver you tailored solutions. We devote ourselves fully to the success of our customers and the project in which we are involved.',
+      PARAGRAPH_3: 'ARIMOR Consulting was founded by Romaric Barthe in 2013.<br>Starting January 2014, Paul Schombara jumps on board and ARIMOR Consulting is soaring.'
     },
     TEAM: {
       TITLE: 'Meet our Team',
@@ -90,8 +91,30 @@ var translateEnglish = {
     MENU_TITLE: 'Careers',
     FOOTER_TITLE: 'We are hiring!',
     TITLE: 'We are hiring!',
-    PARAGRAPH_1: 'We are a growing firm and are always looking for talented people to join our team.',
-    PARAGRAPH_2: ''
+    PARAGRAPH_1: 'We are a growing firm and are always looking for talented people to grow our team.',
+    PARAGRAPH_2: 'If you are highly motivated and entrepreneurial, with good communication skills, and a high level of commitment for excellence, we would love to have you on board!',
+    PARAGRAPH_3: 'Have a look at our current job opening for for information.',
+    SEE_OFFERS_BUTTON: 'See our current Job Openings',
+    READ_MORE_BUTTON: 'Read the full Job Description',
+    OFFER_1: {
+      TITLE: 'Junior Consultant',
+      INTRO: 'You are a "true consultant" right from day one, a full-fledged member of a project team. You are involved in the analysis, integration and administration of reporting and consolidation tool.<br>You are supporting the financial services in decisions and processes to elaborate their financial statements.',
+      TITLE_1: 'The firm',
+      PARAGRAPH_1_1: 'ARIMOR Consulting is a dynamic firm grounded in 2013. Member of a European network  and highly specialized in the implementation of reporting & consolidation tool, we are supporting the financial services of major international groups operating in various sectors (Telecommunication, banking, energy, pharmaceutics, sports…).',
+      PARAGRAPH_1_2: 'ARIMOR Consulting is doing business in a niche market and is managed by operational people. Our reliability is increasing day by day and our growth is only limited by finding/ developing our business’ know-how!',
+      TITLE_2: 'The job',
+      PARAGRAPH_2_1: 'You are a "true consultant" right from day one, a full-fledged member of a project team.<br>You are involved in the analysis, integration and administration of reporting and consolidation tool.<br>You are supporting the financial services in decisions and processes to elaborate their financial statements.',
+      PARAGRAPH_2_2: 'You would make a successful candidate, if:',
+      BULLET_1: 'You have a degree from a reputable university',
+      BULLET_2: 'You have strong analytical skills and are able to understand and interpret the underlying matters',
+      BULLET_3: 'You are highly motivated and entrepreneurial',
+      BULLET_4: 'You possess very good communication skills and commitment to pursue a professional career',
+      BULLET_5: 'You show a high level of commitment for excellence',
+      BULLET_6: 'You speak English fluently',
+      PARAGRAPH_2_3: 'Skills in accounting and / or controlling as well as database logic (MS Access or any other cube), Excel & VBA will be for you a real leverage.',
+      TITLE_3: 'Contact us',
+      PARAGRAPH_3: 'Mail: join@arimor-consulting.com'
+    }
   },
   INTRANET: {
     FOOTER_TITLE: 'Intranet'
