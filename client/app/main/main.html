@@ -1,7 +1,7 @@
 <div class="col-md-12">
   <section class="section-default home-about">
     <header>
-      <h1>{{ 'HOME.TITLE' | translate }}</h1>
+      <h1>{{ 'HOME.INTRO.TITLE' | translate }}</h1>
     </header>
     <div>
       <carousel interval="5000">
@@ -19,22 +19,38 @@
         </slide>
       </carousel>
       <div class="home-tagline">
-        <p ng-bind-html=" 'HOME.TAGLINE' | translate "></p>
+        <p ng-bind-html=" 'HOME.INTRO.TAGLINE' | translate "></p>
         <button href="/about-us" class="btn big-button" ng-click="goTo('expertise')">
-          <span>{{ 'HOME.READ_MORE_BUTTON' | translate }}</span>
+          <span>{{ 'HOME.INTRO.READ_MORE_BUTTON' | translate }}</span>
           <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="13px" height="22.636px" viewBox="0 0 17.079 29.738" xml:space="preserve" preserveAspectRatio="xMinYMin meet"><polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="0.336,0.371 16.334,14.869 0.336,29.367 "></polyline></svg>
         </button>
       </div>
     </div>
   </section>
-</div>
+<!-- </div>
 
-<div class="col-md-12">
+<div class="col-md-12"> -->
   <section class="section-default home-news">
     <header>
-      <h1>{{ 'HOME.TITLE_2' | translate }}</h1>
+      <h1>{{ 'HOME.NEWS.TITLE' | translate }}</h1>
     </header>
-    <div>
+    <div class="row">
+      <div class="col-md-6">
+        <h3>{{ 'HOME.NEWS.ARTICLE_1.TITLE' | translate }}</h3>
+        <p>{{ 'HOME.NEWS.ARTICLE_1.INTRO' | translate }}</p>
+        <button class="btn big-button medium-button down-button">
+          <span>{{ 'HOME.NEWS.READ_MORE_BUTTON' | translate }}</span>
+          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="13px" height="22.636px" viewBox="0 0 13 22.636" enable-background="new 0 0 13 22.636" xml:space="preserve"><polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="11.108,14.818 6.95,19.407 2.792,14.818 "/><line fill="none" stroke="#000000" stroke-miterlimit="10" x1="6.95" y1="2.944" x2="6.95" y2="19.358"/></svg>
+        </button>
+      </div>
+      <div class="col-md-6">
+        <h3>{{ 'HOME.NEWS.ARTICLE_2.TITLE' | translate }}</h3>
+        <p>{{ 'HOME.NEWS.ARTICLE_2.INTRO' | translate }}</p>
+        <button class="btn big-button medium-button down-button">
+          <span>{{ 'HOME.NEWS.READ_MORE_BUTTON' | translate }}</span>
+          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="13px" height="22.636px" viewBox="0 0 13 22.636" enable-background="new 0 0 13 22.636" xml:space="preserve"><polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="11.108,14.818 6.95,19.407 2.792,14.818 "/><line fill="none" stroke="#000000" stroke-miterlimit="10" x1="6.95" y1="2.944" x2="6.95" y2="19.358"/></svg>
+        </button>
+      </div>
     </div>
   </section>
 </div>

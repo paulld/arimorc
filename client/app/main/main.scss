@@ -24,14 +24,11 @@
   margin-top: 25px;
 }
 
+// Change Carousel default settings
 .carousel-control.left,
 .carousel-control.right {
   background: none;
 }
-
-// .carousel-control:hover > .glyphicon {
-//   color: red;
-// }
 .right.carousel-control span, .left.carousel-control span {
   display: none;
 }
@@ -39,6 +36,32 @@
   margin-right: 4px;
 }
 
-// height: 210px width: 440px
 
+.home-news {
+  padding-bottom: 20px;
+}
+.home-news h3 {
+  color: $color-main;
+  font-size: 23px;
+  border-bottom: 2px solid $color-main;
+}
+.home-news p {
+  // height: 30px;
+  // over
+}
 
+button.big-button.medium-button {
+  margin-left: 0;
+  margin-bottom: 0;
+  padding: 7px 15px 3px;
+}
+button.big-button.medium-button span {
+  font-size: 14px;
+}
+button.big-button.medium-button svg {
+  width: 12px;
+  height: 20.895px;
+}
+button.big-button.down-button:hover svg {
+  margin: 3px 0px -3px 0px;
+}

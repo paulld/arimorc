@@ -11,16 +11,30 @@ var translateEnglish = {
   BUTTON_LANG_FR: 'Français',
   HOME: {
     MENU_TITLE: 'Home',
-    TITLE: 'About Arimor Consulting',
-    TAGLINE: 'We are an independent consultancy firm,<br>expert in SAP Financial Consolidation.<br>We provide support and assistance to our clients in Germany, France and more, for the development and optimisation of their financial organisation.',
-    READ_MORE_BUTTON: 'See our expertise',
-    TITLE_2: 'Recent News',
-    NEWS_1_TITLE: '',
-    NEWS_1_CONTENT: '',
-    NEWS_2_TITLE: '',
-    NEWS_2_CONTENT: '',
-    NEWS_3_TITLE: '',
-    NEWS_3_CONTENT: ''
+    INTRO: {
+      TITLE: 'About Arimor Consulting',
+      TAGLINE: 'We are an independent consultancy firm,<br>expert in SAP Financial Consolidation.<br>We provide support and assistance to our clients in Germany, France and more, for the development and optimisation of their financial organisation.',
+      READ_MORE_BUTTON: 'See our expertise'
+    },
+    NEWS: {
+      TITLE: 'Recent News',
+      READ_MORE_BUTTON: 'Read the article',
+      ARTICLE_1: {
+        TITLE: 'News title 1 - 2014',
+        INTRO: 'News content 1...',
+        CONTENT: ''
+      },
+      ARTICLE_2: {
+        TITLE: 'News title 2 - 2014',
+        INTRO: 'News content 2...',
+        CONTENT: ''
+      },
+      ARTICLE_3: {
+        TITLE: 'News title 2 - 2014',
+        INTRO: 'News content 3...',
+        CONTENT: ''
+      }
+    }
   },
   EXPERTISE: {
     MENU_TITLE: 'Our Expertise',
