@@ -1,8 +1,8 @@
 .home-about > div {
   position: relative;
 }
-.home-about > div > img {
-  width: 80%;
+.home-about img {
+  width: auto;
   margin: 0 0 20px 40px;
 }
 .home-tagline {
@@ -23,3 +23,22 @@
   float: right;
   margin-top: 25px;
 }
+
+.carousel-control.left,
+.carousel-control.right {
+  background: none;
+}
+
+// .carousel-control:hover > .glyphicon {
+//   color: red;
+// }
+.right.carousel-control span, .left.carousel-control span {
+  display: none;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+  margin-right: 4px;
+}
+
+// height: 210px width: 440px
+
+

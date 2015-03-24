@@ -4,7 +4,20 @@
       <h1>{{ 'HOME.TITLE' | translate }}</h1>
     </header>
     <div>
-      <img src="/assets/images/fotolia_63494177.jpg">
+      <carousel interval="5000">
+        <slide >
+          <img ng-src="/assets/images/sample-1.png">
+          <!-- <p>Vestibulum fringilla pede sit amet</p> -->
+        </slide>
+        <slide >
+          <img ng-src="/assets/images/sample-2.png">
+          <!-- <p>Ut non enim eleifend felis</p> -->
+        </slide>
+        <slide >
+          <img ng-src="/assets/images/sample-3.png">
+          <!-- <p>Proin pretium leo ac pellentesque</p> -->
+        </slide>
+      </carousel>
       <div class="home-tagline">
         <p ng-bind-html=" 'HOME.TAGLINE' | translate "></p>
         <button href="/about-us" class="btn big-button" ng-click="goTo('expertise')">
