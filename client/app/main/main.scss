@@ -40,14 +40,20 @@
 .home-news {
   padding-bottom: 20px;
 }
-.home-news h3 {
+.article-item {
+  margin-bottom: 10px;
+}
+.article-item h3 {
   color: $color-main;
   font-size: 23px;
   border-bottom: 2px solid $color-main;
 }
-.home-news p {
-  // height: 30px;
-  // over
+.article-intro {
+  height: 78px;
+  overflow: hidden;
+}
+.modal-content {
+  padding: 10px 20px;
 }
 
 button.big-button.medium-button {
