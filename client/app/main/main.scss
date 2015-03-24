@@ -43,7 +43,8 @@
 .article-item {
   margin-bottom: 10px;
 }
-.article-item h3 {
+.article-item h3,
+.modal-content h3 {
   color: $color-main;
   font-size: 23px;
   border-bottom: 2px solid $color-main;
@@ -53,7 +54,14 @@
   overflow: hidden;
 }
 .modal-content {
-  padding: 10px 20px;
+  padding: 10px 25px;
+  border-radius: 0;
+}
+
+@media (min-width: 768px) {
+  .modal-dialog {
+    margin: 29px auto;
+  }
 }
 
 button.big-button.medium-button {
@@ -65,8 +73,8 @@ button.big-button.medium-button span {
   font-size: 14px;
 }
 button.big-button.medium-button svg {
-  width: 12px;
-  height: 20.895px;
+  width: 11px;
+  height: 19.154px;
 }
 button.big-button.down-button:hover svg {
   margin: 3px 0px -3px 0px;

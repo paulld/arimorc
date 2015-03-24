@@ -23,9 +23,9 @@ angular.module('arimorcApp')
     $scope.goTo = function(uri) {
       $state.go(uri);
     }
-    $scope.articles = [];
 
     var translateArticles = function () {
+      $scope.articles = [];
       $translate([
         'HOME.NEWS.ARTICLE_1.TITLE', 'HOME.NEWS.ARTICLE_1.CONTENT',
         'HOME.NEWS.ARTICLE_2.TITLE', 'HOME.NEWS.ARTICLE_2.CONTENT',
@@ -49,7 +49,6 @@ angular.module('arimorcApp')
               });
             }
           }
-
           // $scope.articles = [
           //   {
           //     title: translations['HOME.NEWS.ARTICLE_1.TITLE'],

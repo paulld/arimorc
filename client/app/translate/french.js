@@ -10,9 +10,9 @@ var translateFrench = {
   HOME: {
     MENU_TITLE: 'Home',
     INTRO: {
-      TITLE: 'Bienvenue chez ArimorC',
+      TITLE: 'Bienvenue chez Arimor Consulting',
       TAGLINE: 'We are an independent consultancy firm,<br>expert in SAP Financial Consolidation.<br>We provide support and assistance to our clients in Germany, France and more, for the development and optimisation of their financial organisation.',
-      READ_MORE_BUTTON: 'See our expertise'
+      READ_MORE_BUTTON: 'See our Expertise'
     },
     NEWS: {
       TITLE: 'Actualité récente',
