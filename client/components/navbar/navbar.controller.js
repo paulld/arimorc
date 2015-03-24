@@ -30,15 +30,4 @@ angular.module('arimorcApp')
       $rootScope.$emit('newLang', langKey);
     };
 
-// user.watchUser = function() {
-//     $rootScope.$emit('userDetails', user);
-//   }
-// 
-    // watch and emit functions for UserService
-  // $rootScope.$on('userDetails', function(event, args) {
-  //   //console.log("In watch function header controller, args: ", args);
-  //   $scope.user = args;
-  // });
-
-
   });
