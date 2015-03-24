@@ -9,11 +9,49 @@ var translateGerman = {
   BUTTON_LANG_FR: 'Français',
   HOME: {
     MENU_TITLE: 'Home',
-    TITLE: 'Wilkommenn zu ArimorC'
+    INTRO: {
+      TITLE: 'Wilkommenn zu ArimorC',
+      TAGLINE: 'We are an independent consultancy firm,<br>expert in SAP Financial Consolidation.<br>We provide support and assistance to our clients<br>in Germany, France and more, for the development and optimisation of their financial organisation.',
+      READ_MORE_BUTTON: 'See our Expertise'
+    },
+    NEWS: {
+      TITLE: 'Recent News',
+      READ_MORE_BUTTON: 'Read the full article',
+      ARTICLE_1: {
+        TITLE: 'News title 1 - 2014',
+        CONTENT: 'Sed hendrerit. Praesent adipiscing. Sed libero. Fusce neque. Mauris turpis nunc, blandit et, volutpat molestie, porta ut, ligula.</p><p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus. Nunc interdum lacus sit amet orci. Nunc nulla. Duis leo. Aenean ut eros et nisl sagittis vestibulum.</p><p>Nam at tortor in tellus interdum sagittis. Nullam cursus lacinia erat. Curabitur nisi. Praesent turpis. Donec sodales sagittis magna.</p><p>Ut non enim eleifend felis pretium feugiat. Vestibulum dapibus nunc ac augue. Praesent adipiscing. Cras varius. In consectetuer turpis ut velit.</p><p>Vestibulum eu odio. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Curabitur blandit mollis lacus. Pellentesque egestas, neque sit amet convallis pulvinar, justo nulla eleifend augue, ac auctor orci leo non est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.'
+      },
+      ARTICLE_2: {
+        TITLE: 'News title 2 - 2014',
+        CONTENT: 'Aliquam lobortis. Vivamus in erat ut urna cursus vestibulum. Pellentesque posuere. Fusce convallis metus id felis luctus adipiscing. Phasellus ullamcorper ipsum rutrum nunc.</p><p>Suspendisse eu ligula. Quisque id odio. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Donec id justo. Nunc nec neque.</p><p>Curabitur turpis. Aenean viverra rhoncus pede. Proin pretium, leo ac pellentesque mollis, felis nunc ultrices eros, sed gravida augue augue mollis justo. In consectetuer turpis ut velit. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris.</p><p>Fusce fermentum odio nec arcu. Vestibulum facilisis, purus nec pulvinar iaculis, ligula mi congue nunc, vitae euismod ligula urna in dolor. Suspendisse eu ligula. Ut id nisl quis enim dignissim sagittis. Vestibulum fringilla pede sit amet augue.</p><p>Duis vel nibh at velit scelerisque suscipit. Quisque id mi. Phasellus viverra nulla ut metus varius laoreet. Praesent egestas tristique nibh. In hac habitasse platea dictumst.'
+      },
+      ARTICLE_3: {
+        TITLE: 'News title 3 - 2014',
+        CONTENT: 'Proin sapien ipsum, porta a, auctor quis, euismod ut, mi. Suspendisse eu ligula. In auctor lobortis lacus. Curabitur suscipit suscipit tellus. Cras non dolor.</p><p>Curabitur ullamcorper ultricies nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Maecenas egestas arcu quis ligula mattis placerat. Nunc interdum lacus sit amet orci. Quisque id odio.</p><p>Sed in libero ut nibh placerat accumsan. Morbi ac felis. Nullam cursus lacinia erat. Curabitur a felis in nunc fringilla tristique. Phasellus ullamcorper ipsum rutrum nunc.</p><p>Praesent porttitor, nulla vitae posuere iaculis, arcu nisl dignissim dolor, a pretium mi sem ut ipsum. Phasellus ullamcorper ipsum rutrum nunc. Donec mollis hendrerit risus. Etiam vitae tortor. Curabitur ullamcorper ultricies nisi.'
+      }
+    }
   },
   EXPERTISE: {
     MENU_TITLE: 'Our Expertise',
-    TITLE: 'Our Expertise'
+    TITLE: 'Our Expertise',
+    READ_MORE_BUTTON: 'Read More',
+    PARAGRAPH: 'Arimor Consulting is the partner of financial services.<br>We work with our clients and support them for the long term in most of their projects.<br>Our flexibility, experience and commitment make Arimor Consulting an asset that fully meet your needs.<br>In our fields, and given the quality of our services, our pricing offer is one of the most competitive.',
+    EXPERTISE_1: {
+      TITLE: 'Implementation',
+      CONTENT: 'Cras varius. Morbi vestibulum volutpat enim. Aliquam erat volutpat. Curabitur a felis in nunc fringilla tristique.'
+    },
+    EXPERTISE_2: {
+      TITLE: 'Steering tool',
+      CONTENT: 'Nunc nec neque. Donec sodales sagittis magna. Quisque ut nisi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.'
+    },
+    EXPERTISE_3: {
+      TITLE: 'Audit system',
+      CONTENT: 'Etiam sollicitudin, ipsum eu pulvinar rutrum, tellus ipsum laoreet sapien, quis venenatis ante odio sit amet eros.'
+    },
+    EXPERTISE_4: {
+      TITLE: 'Support',
+      CONTENT: 'Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis tellus, vitae iaculis lacus elit id tortor.'
+    }
   },
   REFERENCES: {
     MENU_TITLE: 'References',
@@ -21,18 +59,23 @@ var translateGerman = {
   },
   ABOUT_US: {
     MENU_TITLE: 'About us',
-    TITLE_1: 'Arimor Consulting',
-    PARAGRAPH_1_1: '',
-    PARAGRAPH_1_2: 'Our team is composed by multi and complementary skills\' members. They are our wealth, our representatives and your partners. Highly qualified and expert in their area, they know and understand your problematics and they are able to deliver you tailored solutions.',
-    PARAGRAPH_1_3: 'We devote ourselves fully to the success of our customers and the project in which we are involved.',
-    TITLE_2: 'Our History',
-    PARAGRAPH_2_1: 'ARIMOR Consulting was founded by Romaric Barthe in 2013. Starting January 2014, Paul Schombara jumps on board and ARIMOR Consulting is soaring.',
-    TITLE_3: 'Meet our Team',
-    PARAGRAPH_3_1: ''
+    TITLE: 'About Arimor Consulting',
+    INTRO: {
+      TITLE: 'What we do',
+      PARAGRAPH_1: 'Our team is composed by multi and complementary skills\' members.<br>They are our wealth, our representatives and your partners.',
+      PARAGRAPH_2: 'Highly qualified and expert in their area, they know and understand your problematics and they are able to deliver you tailored solutions. We devote ourselves fully to the success of our customers and the project in which we are involved.',
+      PARAGRAPH_3: 'ARIMOR Consulting was founded by Romaric Barthe in 2013.<br>Starting January 2014, Paul Schombara jumps on board and ARIMOR Consulting is soaring.'
+    },
+    TEAM: {
+      TITLE: 'Meet our Team',
+      R_BARTHE_BIO: 'Project management<br>Implementation of SAP FC in regards of IFRS/FINREP consolidations, Setup of a multi dimensional data modell, SQL development in SAP FC for specific requirement<br>Analysis and concept on SAP FC<br>Introduction\'s process of SAP FC: From conception, implementation to Historical Data Recovery, training and Go Live<br>Administration of consolidation systems (Financial and reporting process) (SAP FC, HFM)<br>Conception and realisation of reporting systems - Excel or Web<br>Financial Statements realisation and consolidation support',
+      P_SCHOMBARA_BIO: 'Advisory of a global acting media group in generating internal and external financial statements<br>Implementation of SAP FC in regards of IFRS/FINREP consolidations, Setup of a multi dimensional data modell<br>Analysis and concept on SAP FC<br>Historical data recovery within a SAP FC implementation project<br>Experience in migrating from SAP FC Version 7.5 to 10.0 including test conception and cases and testing<br>Administration of data packages and consolidation preparation (including creation of scopes, exchange rate tables and consolidation definition)<br>Financial Information Management'
+    }
   },
   CONTACT_US: {
-    MENU_TITLE: 'Contact us',
+    FOOTER_TITLE: 'Contact us',
     TITLE: 'Contact us',
+    INTRO: 'Please leave us your details and we will contact you shortly.',
     PLACEHOLDERS: {
       NAME: 'Your Name',
       EMAIL: 'Your Email',
@@ -41,18 +84,45 @@ var translateGerman = {
     },
     SUBMIT: 'Send',
     EMPTY_FIELD_MESSAGE: 'Some required fields are missing. Please review your input.',
-    SUCCESS_MESSAGE: 'Thank you for your message! We will come back to you shortly.',
+    SUCCESS_MESSAGE: 'Thank you for your message! We will come back to you as soon as possible.',
     ERROR_MESSAGE: 'Sorry, something went wrong. Please check your input and submit again.'
   },
   CAREERS: {
-    MENU_TITLE: 'We are hiring!',
-    TITLE: 'We are hiring!'
+    MENU_TITLE: 'Careers',
+    TITLE: 'We are hiring!',
+    PARAGRAPH_1: 'We are a growing firm and are always looking for talented people to grow our team.',
+    PARAGRAPH_2: 'If you are highly motivated and entrepreneurial, with good communication skills, and a high level of commitment for excellence, we would love to have you on board!',
+    PARAGRAPH_3: 'Have a look at our current job opening for for information.',
+    SEE_OFFERS_BUTTON: 'See our current Job Openings',
+    READ_MORE_BUTTON: 'Read the full Job Description',
+    OFFER_1: {
+      TITLE: 'Junior Consultant',
+      INTRO: 'You are a "true consultant" right from day one, a full-fledged member of a project team. You are involved in the analysis, integration and administration of reporting and consolidation tool.<br>You are supporting the financial services in decisions and processes to elaborate their financial statements.',
+      TITLE_1: 'The firm',
+      PARAGRAPH_1_1: 'ARIMOR Consulting is a dynamic firm grounded in 2013. Member of a European network  and highly specialized in the implementation of reporting & consolidation tool, we are supporting the financial services of major international groups operating in various sectors (Telecommunication, banking, energy, pharmaceutics, sports…).',
+      PARAGRAPH_1_2: 'ARIMOR Consulting is doing business in a niche market and is managed by operational people. Our reliability is increasing day by day and our growth is only limited by finding/ developing our business’ know-how!',
+      TITLE_2: 'The job',
+      PARAGRAPH_2_1: 'You are a "true consultant" right from day one, a full-fledged member of a project team.<br>You are involved in the analysis, integration and administration of reporting and consolidation tool.<br>You are supporting the financial services in decisions and processes to elaborate their financial statements.',
+      PARAGRAPH_2_2: 'You would make a successful candidate, if:',
+      BULLET_1: 'You have a degree from a reputable university',
+      BULLET_2: 'You have strong analytical skills and are able to understand and interpret the underlying matters',
+      BULLET_3: 'You are highly motivated and entrepreneurial',
+      BULLET_4: 'You possess very good communication skills and commitment to pursue a professional career',
+      BULLET_5: 'You show a high level of commitment for excellence',
+      BULLET_6: 'You speak English fluently',
+      PARAGRAPH_2_3: 'Skills in accounting and / or controlling as well as database logic (MS Access or any other cube), Excel & VBA will be for you a real leverage.',
+      TITLE_3: 'Contact us',
+      PARAGRAPH_3: 'Mail: join@arimor-consulting.com'
+    }
   },
   INTRANET: {
-    MENU_TITLE: 'Intranet'
+    FOOTER_TITLE: 'Intranet'
+  },
+  CLIENTS: {
+    FOOTER_TITLE: 'Clients'
   },
   IMPRESSUM: {
-    MENU_TITLE: 'Impressum',
+    FOOTER_TITLE: 'Impressum',
     TITLE_1: 'Impressum',
     SUB_1: 'Angaben gemäss § 5 TMG:',
     PARAGRAPH_1_1: 'ARIMOR Consulting GmbH',

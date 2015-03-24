@@ -89,7 +89,6 @@ var translateEnglish = {
   },
   CAREERS: {
     MENU_TITLE: 'Careers',
-    FOOTER_TITLE: 'We are hiring!',
     TITLE: 'We are hiring!',
     PARAGRAPH_1: 'We are a growing firm and are always looking for talented people to grow our team.',
     PARAGRAPH_2: 'If you are highly motivated and entrepreneurial, with good communication skills, and a high level of commitment for excellence, we would love to have you on board!',

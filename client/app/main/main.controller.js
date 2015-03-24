@@ -40,9 +40,7 @@ angular.module('arimorcApp')
         ]).then(function (translations) {
           
           for (var i=1; i<11; i++) {
-            console.log(i);
             if (translations['HOME.NEWS.ARTICLE_' + i + '.TITLE'] != 'HOME.NEWS.ARTICLE_' + i + '.TITLE') {
-              console.log('inside', i);
               $scope.articles.push({
                 title: translations['HOME.NEWS.ARTICLE_' + i + '.TITLE'],
                 content: translations['HOME.NEWS.ARTICLE_' + i + '.CONTENT']
