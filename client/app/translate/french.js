@@ -104,7 +104,7 @@ var translateFrench = {
     INTRO: {
       TITLE: 'What we Do',
       PARAGRAPH_1: 'Our team is composed by multi and complementary skills\' members.<br>They are our wealth, our representatives and your partners.',
-      PARAGRAPH_2: 'Highly qualified and expert in their area, they know and understand your problematics and they are able to deliver you tailored solutions. We devote ourselves fully to the success of our customers and the project in which we are involved.',
+      PARAGRAPH_2: 'Highly qualified and expert in their area, they know and understand your problematics and they are able to deliver you tailored solutions.<br>We devote ourselves fully to the success of our customers and the project in which we are involved.',
       PARAGRAPH_3: 'ARIMOR Consulting was founded by Romaric Barthe in 2013.<br>Starting January 2014, Paul Schombara jumps on board and ARIMOR Consulting is soaring.'
     },
     TEAM: {

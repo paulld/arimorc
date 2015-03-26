@@ -9,35 +9,35 @@
 .about-intro {
   position: relative;
   margin-bottom: 60px;
-}
-.about-intro img {
-  width: auto;
-  max-width: 100%;
-  height: auto;
-  margin-left: 30px;
-}
-.about-intro > div {
-  width: 83%;
-  position: absolute;
-  top: -15px;
-  left: 120px;
-}
-.about-intro > div > div {
-  background-color: rgba(255, 255, 255, 0.9);
-  font-size: 25px;
-  padding: 30px;
-}
-.about-intro > div > div > p {
-  font-size: 21px;
-  text-align: center;
-  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.15);
-  line-height: 30px;
-  margin: 0;
-  margin-bottom: 5px;
-}
-.about-intro > div > button {
-  float: right;
-  margin-top: 20px;
+  img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin-left: 30px;
+  }
+  & > div {
+    position: absolute;
+    width: 66%;
+    top: -46px;
+    right: 58px;
+    button {
+      float: right;
+      margin-top: 20px;
+    }
+    & > div {
+      background-color: rgba(255, 255, 255, 0.9);
+      font-size: 25px;
+      padding: 30px;
+      & > p {
+        font-size: 21px;
+        text-align: center;
+        text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.15);
+        line-height: 30px;
+        margin: 0;
+        margin-bottom: 5px;
+      }
+    }
+  }
 }
 
 .team-member-left,
