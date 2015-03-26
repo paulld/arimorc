@@ -1,7 +1,7 @@
 <div ng-controller="FooterCtrl">
   <div class="container">
     <div class="copyright">
-      &copy; Copyright - Arimor Consulting
+      &copy; {{date | date:'yyyy'}} - Arimor Consulting
     </div>
     <ul class="footer-menu list-inline">
       <li ng-class="isActive('/contact-us')" ng-click="goTo('contact-us')">

@@ -11,4 +11,6 @@ angular.module('arimorcApp')
       $state.go(uri);
     }
 
+    $scope.date = new Date();
+
   });

@@ -18,16 +18,8 @@ var translateGerman = {
       TITLE: 'Recent News',
       READ_MORE_BUTTON: 'Read the full article',
       ARTICLE_1: {
-        TITLE: 'News title 1 - 2014',
+        TITLE: 'Laufen Zwischen den Meeren',
         CONTENT: 'Sed hendrerit. Praesent adipiscing. Sed libero. Fusce neque. Mauris turpis nunc, blandit et, volutpat molestie, porta ut, ligula.</p><p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus. Nunc interdum lacus sit amet orci. Nunc nulla. Duis leo. Aenean ut eros et nisl sagittis vestibulum.</p><p>Nam at tortor in tellus interdum sagittis. Nullam cursus lacinia erat. Curabitur nisi. Praesent turpis. Donec sodales sagittis magna.</p><p>Ut non enim eleifend felis pretium feugiat. Vestibulum dapibus nunc ac augue. Praesent adipiscing. Cras varius. In consectetuer turpis ut velit.</p><p>Vestibulum eu odio. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Curabitur blandit mollis lacus. Pellentesque egestas, neque sit amet convallis pulvinar, justo nulla eleifend augue, ac auctor orci leo non est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.'
-      },
-      ARTICLE_2: {
-        TITLE: 'News title 2 - 2014',
-        CONTENT: 'Aliquam lobortis. Vivamus in erat ut urna cursus vestibulum. Pellentesque posuere. Fusce convallis metus id felis luctus adipiscing. Phasellus ullamcorper ipsum rutrum nunc.</p><p>Suspendisse eu ligula. Quisque id odio. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Donec id justo. Nunc nec neque.</p><p>Curabitur turpis. Aenean viverra rhoncus pede. Proin pretium, leo ac pellentesque mollis, felis nunc ultrices eros, sed gravida augue augue mollis justo. In consectetuer turpis ut velit. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris.</p><p>Fusce fermentum odio nec arcu. Vestibulum facilisis, purus nec pulvinar iaculis, ligula mi congue nunc, vitae euismod ligula urna in dolor. Suspendisse eu ligula. Ut id nisl quis enim dignissim sagittis. Vestibulum fringilla pede sit amet augue.</p><p>Duis vel nibh at velit scelerisque suscipit. Quisque id mi. Phasellus viverra nulla ut metus varius laoreet. Praesent egestas tristique nibh. In hac habitasse platea dictumst.'
-      },
-      ARTICLE_3: {
-        TITLE: 'News title 3 - 2014',
-        CONTENT: 'Proin sapien ipsum, porta a, auctor quis, euismod ut, mi. Suspendisse eu ligula. In auctor lobortis lacus. Curabitur suscipit suscipit tellus. Cras non dolor.</p><p>Curabitur ullamcorper ultricies nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Maecenas egestas arcu quis ligula mattis placerat. Nunc interdum lacus sit amet orci. Quisque id odio.</p><p>Sed in libero ut nibh placerat accumsan. Morbi ac felis. Nullam cursus lacinia erat. Curabitur a felis in nunc fringilla tristique. Phasellus ullamcorper ipsum rutrum nunc.</p><p>Praesent porttitor, nulla vitae posuere iaculis, arcu nisl dignissim dolor, a pretium mi sem ut ipsum. Phasellus ullamcorper ipsum rutrum nunc. Donec mollis hendrerit risus. Etiam vitae tortor. Curabitur ullamcorper ultricies nisi.'
       }
     }
   },
