@@ -1,11 +1,16 @@
-<div class="col-md-12">
+<div ng-show="loading" class="loading">
+  <img ng-src="/assets/images/loading-spinner.svg">
+  <div class="hide-footer"></div>
+</div>
+
+<div class="col-md-12" ng-show="!loading">
   <section class="section-default">
     <header>
       <h1>{{ 'EXPERTISE.TITLE' | translate }}</h1>
     </header>
     <div>
       <div class="expertise-intro">
-        <img ng-src="/assets/images/sample-7.jpg" width="900" height="440">
+        <img ng-src="/assets/images/sample-7.jpg" imageonload="displayPage()">
         <div>
           <div>
             <p ng-bind-html=" 'EXPERTISE.PARAGRAPH' | translate "></p>

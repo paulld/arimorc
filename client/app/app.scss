@@ -255,6 +255,19 @@ ul.footer-menu > li.active > a {
  * Pages
  */
 
+.loading {
+  text-align: center;
+  .hide-footer {
+    height: $footer-height + 10px;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  }
+}
+
 p, ul > li {
   font-family: $font-texts;
   line-height: 26px;

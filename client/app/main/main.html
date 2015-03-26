@@ -1,4 +1,9 @@
-<div class="col-md-12">
+<div ng-show="loading" class="loading">
+  <img ng-src="/assets/images/loading-spinner.svg">
+  <div class="hide-footer"></div>
+</div>
+
+<div class="col-md-12" ng-show="!loading">
   <section class="section-default home-about">
     <header>
       <h1>{{ 'HOME.INTRO.TITLE' | translate }}</h1>
@@ -6,19 +11,19 @@
     <div>
       <carousel interval="5000">
         <slide >
-          <img ng-src="/assets/images/sample-ski-1.jpg" width="900" height="440">
+          <img ng-src="/assets/images/sample-ski-1.jpg" imageonload="displayPage()">
           <!-- <p>Vestibulum fringilla pede sit amet</p> -->
         </slide>
         <slide >
-          <img ng-src="/assets/images/sample-ski-5.jpg" width="900" height="440">
+          <img ng-src="/assets/images/sample-ski-5.jpg">
           <!-- <p>Ut non enim eleifend felis</p> -->
         </slide>
         <slide >
-          <img ng-src="/assets/images/sample-ski-8.jpg" width="900" height="440">
+          <img ng-src="/assets/images/sample-ski-8.jpg">
           <!-- <p>Proin pretium leo ac pellentesque</p> -->
         </slide>
         <slide >
-          <img ng-src="/assets/images/sample-ski-10.jpg" width="900" height="440">
+          <img ng-src="/assets/images/sample-ski-10.jpg">
           <!-- <p>Proin pretium leo ac pellentesque</p> -->
         </slide>
       </carousel>
