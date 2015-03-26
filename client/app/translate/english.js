@@ -152,6 +152,26 @@ var translateEnglish = {
 
 angular.module('arimorcApp')
   .config(['$translateProvider', function ($translateProvider) {
+
+
+    // var Parse = require('parse').Parse;
+    Parse.initialize("uzruDO8RUFo8QSZeGr6d7xFb0YJ1fS4O977r7LOx", "UmS1tUNqB9vZRx88ZEx1YJ1qxebV7EpKGXfPX48s");
+
+    var TestObject = Parse.Object.extend("TestObject");
+    var testObject = new TestObject();
+    testObject.save({foo: "bar"}).then(function(object) {
+      alert("yay! it worked");
+    });
+
+    // var query = new Parse.Query(Parse.User);
+    // query.find({
+    //   success: function(users) {
+    //     for (var i = 0; i < users.length; ++i) {
+    //       console.log(users[i].get('username'));
+    //     }
+    //   }
+    // });
+
     $translateProvider.translations('en', translateEnglish);
     $translateProvider.preferredLanguage('en');
     $translateProvider.fallbackLanguage('en');
