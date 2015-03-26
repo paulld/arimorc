@@ -1,4 +1,9 @@
-<div class="col-md-12">
+<div ng-show="loading" class="loading">
+  <img ng-src="/assets/images/loading-spinner.svg">
+  <div class="hide-footer"></div>
+</div>
+
+<div class="col-md-12" ng-show="!loading">
   <section class="section-default references">
     <header>
       <h1>{{ 'REFERENCES.TITLE' | translate }}</h1>
@@ -133,7 +138,7 @@
       <div class="reference-item">
         <div class="helper">
         </div>
-        <img src="assets/images/arimorc-clients-ginini-groupe.png">
+        <img src="assets/images/arimorc-clients-ginini-groupe.png" imageonload="displayPage()">
         <div class="reference-info">
           <a href="{{ 'REFERENCES.CLIENT_7.URL' | translate }}">
             <span class="reference-link"></span>

@@ -2,5 +2,10 @@
 
 angular.module('arimorcApp')
   .controller('ReferencesCtrl', function ($scope) {
-    $scope.message = 'Hello';
+    
+    $scope.loading = true;
+    $scope.displayPage = function () {
+      $scope.loading = false;
+    };
+    
   });
