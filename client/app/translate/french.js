@@ -57,57 +57,50 @@ var translateFrench = {
     MENU_TITLE: 'Références',
     TITLE: 'Ils nous Font Confiance',
     CLIENT_1: {
-      NAME: 'T Mobile',
-      IMG: 't-mobile.png',
-      URL: '',
+      NAME: 'T-Mobile',
+      URL: 'http://www.t-mobile.com/',
       PROJECT_1: 'SAP Implementation',    // Leave empty string if nil, do not delete this line
       PROJECT_2: 'Super Project 2',       // Leave empty string if nil, do not delete this line
       PROJECT_3: 'Awesome Job 3'          // Leave empty string if nil, do not delete this line
     },
     CLIENT_2: {
       NAME: 'Salzgitter AG',
-      IMG: 'salzgitter.png',
-      URL: '',
+      URL: 'http://www.salzgitter-ag.com/',
       PROJECT_1: 'SAP Implementation',
       PROJECT_2: 'Super Job 2',
       PROJECT_3: ''
     },
     CLIENT_3: {
       NAME: 'Keneo Sport Solutions',
-      IMG: 'keneo.png',
-      URL: '',
+      URL: 'http://www.keneo.com/',
       PROJECT_1: 'Internal Reporting System',
       PROJECT_2: '',
       PROJECT_3: ''
     },
     CLIENT_4: {
       NAME: 'Asklepios',
-      IMG: 'asklepios.png',
-      URL: '',
+      URL: 'http://www.asklepios.com/Home_en.Asklepios',
       PROJECT_1: '',
       PROJECT_2: '',
       PROJECT_3: ''
     },
     CLIENT_5: {
       NAME: 'Horwáth Partners',
-      IMG: 'horwath-partners.png',
-      URL: '',
+      URL: 'http://www.horvath-partners.com/de/home/',
       PROJECT_1: '',
       PROJECT_2: '',
       PROJECT_3: ''
     },
     CLIENT_6: {
       NAME: 'Visea Consulting',
-      IMG: 'visea-consulting.png',
-      URL: '',
+      URL: 'http://www.viseaconsulting.com/',
       PROJECT_1: '',
       PROJECT_2: '',
       PROJECT_3: ''
     },
     CLIENT_7: {
       NAME: 'Ginini Groupe',
-      IMG: 'ginini-groupe.png',
-      URL: '',
+      URL: 'http://www.ginini-groupe.com/',
       PROJECT_1: '',
       PROJECT_2: '',
       PROJECT_3: ''
