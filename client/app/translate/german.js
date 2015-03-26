@@ -55,7 +55,63 @@ var translateGerman = {
   },
   REFERENCES: {
     MENU_TITLE: 'References',
-    TITLE: 'Our References'
+    TITLE: 'They Trust Us',
+    CLIENT_1: {
+      NAME: 'T Mobile',
+      IMG: 't-mobile.png',
+      URL: '',
+      PROJECT_1: 'SAP Implementation',    // Leave empty string if nil, do not delete this line
+      PROJECT_2: 'Super Project 2',       // Leave empty string if nil, do not delete this line
+      PROJECT_3: 'Awesome Job 3'          // Leave empty string if nil, do not delete this line
+    },
+    CLIENT_2: {
+      NAME: 'Salzgitter AG',
+      IMG: 'salzgitter.png',
+      URL: '',
+      PROJECT_1: 'SAP Implementation',
+      PROJECT_2: 'Super Job 2',
+      PROJECT_3: ''
+    },
+    CLIENT_3: {
+      NAME: 'Keneo Sport Solutions',
+      IMG: 'keneo.png',
+      URL: '',
+      PROJECT_1: 'Internal Reporting System',
+      PROJECT_2: '',
+      PROJECT_3: ''
+    },
+    CLIENT_4: {
+      NAME: 'Asklepios',
+      IMG: 'asklepios.png',
+      URL: '',
+      PROJECT_1: '',
+      PROJECT_2: '',
+      PROJECT_3: ''
+    },
+    CLIENT_5: {
+      NAME: 'Horwáth Partners',
+      IMG: 'horwath-partners.png',
+      URL: '',
+      PROJECT_1: '',
+      PROJECT_2: '',
+      PROJECT_3: ''
+    },
+    CLIENT_6: {
+      NAME: 'Visea Consulting',
+      IMG: 'visea-consulting.png',
+      URL: '',
+      PROJECT_1: '',
+      PROJECT_2: '',
+      PROJECT_3: ''
+    },
+    CLIENT_7: {
+      NAME: 'Ginini Groupe',
+      IMG: 'ginini-groupe.png',
+      URL: '',
+      PROJECT_1: '',
+      PROJECT_2: '',
+      PROJECT_3: ''
+    }
   },
   ABOUT_US: {
     MENU_TITLE: 'About us',

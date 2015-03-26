@@ -2,8 +2,6 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 $fa-font-path: "/bower_components/font-awesome/fonts";
 
 $color-main: rgb(154,187,89);
-$color-main-opacity-6: rgba(154,187,89,.6);
-$color-main-opacity-8: rgba(154,187,89,.8);
 $background-color: rgb(255,255,255);
 $section-background-color: rgb(230,230,230);
 $color-secondary-dark: rgb(68,68,68);
@@ -177,7 +175,7 @@ ul.main-menu > li {
   cursor: pointer;
 }
 ul.main-menu > li > a {
-  color: $color-main-opacity-8;
+  color: transparentize($color-main, .2);
   font-family: $font-titles;
   font-size: 18px;
   text-decoration: none;
@@ -186,7 +184,7 @@ ul.main-menu > li > a {
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
 }
 ul.main-menu > li:hover {
-  background-color: $color-main-opacity-8;
+  background-color: transparentize($color-main, .2);
   -webkit-transition: background-color 300ms ease-in-out;
      -moz-transition: background-color 300ms ease-in-out;
       -ms-transition: background-color 300ms ease-in-out;
@@ -197,7 +195,7 @@ ul.main-menu > li:hover > a {
   color: $background-color;
 }
 ul.main-menu > li.active {
-  background-color: $color-main-opacity-8;
+  background-color: transparentize($color-main, .2);
   cursor: default;
 }
 ul.main-menu > li.active > a {
