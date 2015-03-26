@@ -12,13 +12,25 @@
   margin-bottom: 25px;
   height: 250px;
   text-align: center;
-}
-.reference-item + .reference-item {
-  margin-left: 2%;
-}
-.reference-item > img {
-  max-height: 40%;
-  max-width: 95%;
+  & + .reference-item {
+    margin-left: 2%;
+  }
+  img {
+    max-height: 40%;
+    max-width: 95%;
+  }
+  &:hover {
+    .reference-info {
+      display: block;
+    }
+    img {
+              filter: brightness(0);
+      -webkit-filter: brightness(0);
+         -moz-filter: brightness(0);
+           -o-filter: brightness(0);
+          -ms-filter: brightness(0);
+    }
+  }
 }
 .reference-info {
   position: absolute;
@@ -28,49 +40,39 @@
   width: 100%;
   text-align: center;
   z-index: 1;
-  background-color: transparentize($color-main, .1);
+  background-color: rgba(180, 180, 180, 0.95);
   display: none;
 }
 .reference-info-name {
   position: relative;
   height: 35%;
-  top: -20px;
+  top: 58px;
   padding: 0 10px;
-}
-.reference-info-name > h3 {
-  color: rgba(255,255,255,1);
-  font-size: 33px;
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
+  h3 {
+    color: rgba(255,255,255,1);
+    font-size: 33px;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
 }
 .reference-info-projects {
   position: relative;
   height: 35%;
   bottom: -56px;
-}
-.reference-info-projects > ul {
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
-}
-.reference-info-projects > ul > li {
-  color: rgba(255,255,255,1);
-  font-size: 18px;
-}
-.reference-item:hover .reference-info {
-  display: block;
-}
-.reference-item:hover img {
-          filter: brightness(0);
-  -webkit-filter: brightness(0);
-     -moz-filter: brightness(0);
-       -o-filter: brightness(0);
-      -ms-filter: brightness(0);
+  ul {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    li {
+      color: rgba(255,255,255,1);
+      font-size: 18px;
+    }
+  }
 }
 .reference-link {
   position:absolute; 

@@ -2,59 +2,60 @@
   margin-bottom: 80px;
   text-align: right;
   position: relative;
-}
-.expertise-intro > img {
-  width: auto;
-  max-width: 100%;
-  height: auto;
-}
-.expertise-intro > div {
-  width: 55%;
-  position: absolute;
-  top: 80px;
-  background-color: rgba(255,255,255,.9);
-  font-size: 25px;
-  padding: 20px 30px 0;
-}
-.expertise-intro > div > button {
-  float: right;
-  margin-top: 15px;
-}
-.expertise-intro > div > p {
-  font-size: 21px;
-  text-align: center;
-  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.15);
-  line-height: 30px;
-  margin: 0;
+  img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+  }
+  & > div {
+    width: 55%;
+    position: absolute;
+    top: 60px;
+    div {
+      background-color: rgba(255,255,255,.9);
+      padding: 30px 40px;
+      p {
+        font-size: 21px;
+        text-align: center;
+        text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.15);
+        line-height: 30px;
+        margin: 0;
+      }
+    }
+    button {
+      float: right;
+      margin-top: 20px;
+    }
+  }
 }
 .expertise-items {
   margin-bottom: 30px;
-}
-.expertise-items > div {
-  display: inline-block;
-  width: 23%;
-  background-color: rgba(255,255,255,1);
-  padding: 30px 33px;
-  vertical-align: top;
-  position: relative;
-  margin-bottom: 30px;
-  height: 320px
-}
-.expertise-items > div + div {
-  margin-left: 2%;
-}
-.expertise-items > div:nth-child(2) {
-  margin-top: 30px;
-}
-.expertise-items > div:nth-child(3) {
-  margin-top: 60px;
-}
-.expertise-items > div:nth-child(4) {
-  margin-top: 90px;
-}
-.expertise-items > div > h2 {
-  font-size: 27px;
-  color: $color-main;
+  div {
+    display: inline-block;
+    width: 23%;
+    background-color: rgba(255,255,255,1);
+    padding: 30px 33px;
+    vertical-align: top;
+    position: relative;
+    margin-bottom: 30px;
+    height: 320px;
+    & + div {
+      margin-left: 2%;
+    }
+    h2 {
+      font-size: 27px;
+      color: $color-main;
+    }
+  }
+  div:nth-child(2) {
+    margin-top: 30px;
+  }
+  div:nth-child(3) {
+    margin-top: 60px;
+  }
+  div:nth-child(4) {
+    margin-top: 90px;
+  }
 }
 .expertise-number {
   position: absolute;

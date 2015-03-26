@@ -21,7 +21,7 @@
 }
 .home-tagline > button {
   float: right;
-  margin-top: 25px;
+  margin-top: 15px;
 }
 
 // Change Carousel default settings
@@ -71,11 +71,14 @@ button.big-button.medium-button {
 }
 button.big-button.medium-button span {
   font-size: 14px;
+  top: -3px;
 }
 button.big-button.medium-button svg {
-  width: 11px;
-  height: 19.154px;
+  height: 17px;
 }
 button.big-button.down-button:hover svg {
   margin: 3px 0px -3px 0px;
+}
+button.big-button.down-button svg {
+  width: 18px;
 }

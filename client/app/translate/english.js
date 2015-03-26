@@ -55,7 +55,7 @@ var translateEnglish = {
   },
   REFERENCES: {
     MENU_TITLE: 'References',
-    TITLE: 'They Trust us',
+    TITLE: 'They Trust Us',
     CLIENT_1: {
       NAME: 'T-Mobile',
       URL: 'http://www.t-mobile.com/',
@@ -87,9 +87,9 @@ var translateEnglish = {
     CLIENT_5: {
       NAME: 'Horwáth Partners',
       URL: 'http://www.horvath-partners.com/de/home/',
-      PROJECT_1: '',
-      PROJECT_2: '',
-      PROJECT_3: ''
+      PROJECT_1: 'Great Project 1',
+      PROJECT_2: 'Great Project 2',
+      PROJECT_3: 'Great Project 3'
     },
     CLIENT_6: {
       NAME: 'Visea Consulting',
@@ -107,10 +107,10 @@ var translateEnglish = {
     }
   },
   ABOUT_US: {
-    MENU_TITLE: 'About us',
+    MENU_TITLE: 'About Us',
     TITLE: 'About Arimor Consulting',
     INTRO: {
-      TITLE: 'What we do',
+      TITLE: 'What we Do',
       PARAGRAPH_1: 'Our team is composed by multi and complementary skills\' members.<br>They are our wealth, our representatives and your partners.',
       PARAGRAPH_2: 'Highly qualified and expert in their area, they know and understand your problematics and they are able to deliver you tailored solutions. We devote ourselves fully to the success of our customers and the project in which we are involved.',
       PARAGRAPH_3: 'ARIMOR Consulting was founded by Romaric Barthe in 2013.<br>Starting January 2014, Paul Schombara jumps on board and ARIMOR Consulting is soaring.'
@@ -129,7 +129,7 @@ var translateEnglish = {
       NAME: 'Your Name',
       EMAIL: 'Your Email',
       COMPANY: 'Your Company',
-      MESSAGE: 'Enter your message',
+      MESSAGE: 'Enter your Message'
     },
     SUBMIT: 'Send',
     EMPTY_FIELD_MESSAGE: 'Some required fields are missing. Please review your input.',
@@ -139,7 +139,7 @@ var translateEnglish = {
   CAREERS: {
     MENU_TITLE: 'Careers',
     TITLE: 'We are hiring!',
-    PARAGRAPH_1: 'We are a growing firm and are always looking for talented people to grow our team.',
+    PARAGRAPH_1: 'We are a growing firm and are always looking for<br>talented people to grow our team.',
     PARAGRAPH_2: 'If you are highly motivated and entrepreneurial, with good communication skills, and a high level of commitment for excellence, we would love to have you on board!',
     PARAGRAPH_3: 'Have a look at our current job opening for for information.',
     SEE_OFFERS_BUTTON: 'See our current Job Openings',

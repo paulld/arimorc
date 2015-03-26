@@ -6,9 +6,9 @@ button.big-button {
 
 .contact-form-left {
   display: inline-block;
-  width: 40%;
+  width: 42%;
   float: left;
-  margin-right: 30px;
+  margin-right: 3%;
 }
 .contact-form-left input {
   border-color: #f0f0f0;
@@ -59,8 +59,6 @@ button.big-button {
     box-shadow: none;
   }
   &:focus {
-    // outline-color: #eee;
-    // outline-width: 2px;
     outline: none;
   }
 }
