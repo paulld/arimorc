@@ -196,4 +196,5 @@ angular.module('arimorcApp')
     $translateProvider.translations('en', translateEnglish);
     $translateProvider.preferredLanguage('en');
     $translateProvider.fallbackLanguage('en');
+    $translateProvider.useLocalStorage();
   }]);
