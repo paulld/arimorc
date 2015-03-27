@@ -27,7 +27,7 @@ angular.module('arimorcApp')
 
     $scope.goTo = function(uri) {
       $state.go(uri);
-    }
+    };
 
     var translateArticles = function () {
       $scope.articles = [];
@@ -45,7 +45,7 @@ angular.module('arimorcApp')
         ]).then(function (translations) {
           
           for (var i=1; i<11; i++) {
-            if (translations['HOME.NEWS.ARTICLE_' + i + '.TITLE'] != 'HOME.NEWS.ARTICLE_' + i + '.TITLE') {
+            if (translations['HOME.NEWS.ARTICLE_' + i + '.TITLE'] !== 'HOME.NEWS.ARTICLE_' + i + '.TITLE') {
               $scope.articles.push({
                 title: translations['HOME.NEWS.ARTICLE_' + i + '.TITLE'],
                 content: translations['HOME.NEWS.ARTICLE_' + i + '.CONTENT']
@@ -70,12 +70,12 @@ angular.module('arimorcApp')
     };
     translateArticles();
 
-    $rootScope.$on('newLang', function(event, args) {
+    $rootScope.$on('newLang', function() {
       translateArticles();
     });
 
     $scope.open = function (_article) {
-      var modalInstance = $modal.open({
+      $modal.open({
         templateUrl: 'article.html',
         controller: 'ArticleCtrl',
         resolve: {

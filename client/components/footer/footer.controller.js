@@ -9,7 +9,7 @@ angular.module('arimorcApp')
 
     $scope.goTo = function(uri) {
       $state.go(uri);
-    }
+    };
 
     $scope.date = new Date();
 

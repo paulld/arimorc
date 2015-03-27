@@ -1,4 +1,4 @@
-# arimorc
+# ArimorC [![Code Climate](https://codeclimate.com/github/paulld/arimorc/badges/gpa.svg)](https://codeclimate.com/github/paulld/arimorc)
 
 This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
 version 0.11.1.

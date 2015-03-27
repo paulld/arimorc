@@ -9,7 +9,7 @@ angular.module('arimorcApp')
     };
     
     $scope.open = function (size) {
-      var modalInstance = $modal.open({
+      $modal.open({
         templateUrl: 'offer.html',
         size: size
       });

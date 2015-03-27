@@ -54,7 +54,7 @@ angular.module('arimorcApp', [
     });
 
     // Force scroll on top when new page is loaded
-    $rootScope.$on("$locationChangeSuccess", function() {
+    $rootScope.$on('$locationChangeSuccess', function() {
       $anchorScroll();
     });
   })

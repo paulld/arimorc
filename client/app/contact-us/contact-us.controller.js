@@ -10,16 +10,16 @@ angular.module('arimorcApp')
 
     $scope.postMail = function (contact) {
       if ($scope.contactForm.$invalid === true) {
-        return
+        return;
       }
 
       $scope.postData = angular.copy(contact);
 
       $http.post('/api/contacts', $scope.postData)
-        .success(function(data) {
+        .success(function() {
           // Success message already sent
         })
-        .error(function(data) {
+        .error(function() {
           // Revert Success message if error
           $scope.sentWithSuccess = true;
           $scope.sentWithSuccess = false;

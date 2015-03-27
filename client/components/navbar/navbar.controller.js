@@ -19,7 +19,7 @@ angular.module('arimorcApp')
 
     $scope.goTo = function(uri) {
       $state.go(uri);
-    }
+    };
 
     $scope.isActive = function(route) {
       return (route === $location.path())? 'active' : '';
