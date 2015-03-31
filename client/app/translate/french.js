@@ -54,29 +54,29 @@ var translateFrench = {
     CLIENT_1: {
       NAME: 'T-Mobile',
       URL: 'http://www.t-mobile.com/',
-      PROJECT_1: 'SAP Implementation',    // Leave empty string if nil, do not delete this line
-      PROJECT_2: 'Super Project 2',       // Leave empty string if nil, do not delete this line
-      PROJECT_3: 'Awesome Job 3'          // Leave empty string if nil, do not delete this line
+      PROJECT_1: 'Implementation and specific development on SAP FC',  // Leave empty string if nil, do not delete this line
+      PROJECT_2: 'closing support (central + local)',                  // Leave empty string if nil, do not delete this line
+      PROJECT_3: ''                                                    // Leave empty string if nil, do not delete this line
     },
     CLIENT_2: {
       NAME: 'Salzgitter AG',
       URL: 'http://www.salzgitter-ag.com/',
-      PROJECT_1: 'SAP Implementation',
-      PROJECT_2: 'Super Job 2',
+      PROJECT_1: 'Technical support on SAP FC',
+      PROJECT_2: '',
       PROJECT_3: ''
     },
     CLIENT_3: {
       NAME: 'Keneo Sport Solutions',
       URL: 'http://www.keneo.com/',
-      PROJECT_1: 'Internal Reporting System',
+      PROJECT_1: 'Creation and development of internal reporting tool',
       PROJECT_2: '',
       PROJECT_3: ''
     },
     CLIENT_4: {
       NAME: 'Asklepios',
       URL: 'http://www.asklepios.com/Home_en.Asklepios',
-      PROJECT_1: '',
-      PROJECT_2: '',
+      PROJECT_1: 'Specific development on SAP FC',
+      PROJECT_2: 'Re-design of the FC landscape (DEV+PROD+TEST)',
       PROJECT_3: ''
     },
     CLIENT_5: {
@@ -98,6 +98,13 @@ var translateFrench = {
       URL: 'http://www.ginini-groupe.com/',
       PROJECT_1: '',
       PROJECT_2: '',
+      PROJECT_3: ''
+    },
+    CLIENT_8: {
+      NAME: 'Storengy',
+      URL: 'https://www.storengy.com/en/',
+      PROJECT_1: 'Creation of mapping + interfacing tool from SAP Finance to SAP FC',
+      PROJECT_2: 'Closing support',
       PROJECT_3: ''
     }
   },

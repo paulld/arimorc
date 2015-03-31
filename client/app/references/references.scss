@@ -3,8 +3,6 @@
   padding-bottom: 15px;
 }
 .reference-item {
-  display: inline-block;
-  width: 23%;
   vertical-align: top;
   background-color: white;
   padding: 30px 15px;
@@ -12,9 +10,6 @@
   margin-bottom: 25px;
   height: 250px;
   text-align: center;
-  & + .reference-item {
-    margin-left: 2%;
-  }
   img {
     max-height: 40%;
     max-width: 95%;
@@ -70,7 +65,7 @@
             transform: translateY(-50%);
     li {
       color: rgba(255,255,255,1);
-      font-size: 18px;
+      font-size: 17px;
     }
   }
 }
