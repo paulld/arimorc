@@ -10,25 +10,26 @@
     </header>
     <div>
       <carousel interval="5000">
-        <slide >
+        <slide>
           <img ng-src="/assets/images/sample-ski-1.jpg" imageonload="displayPage()">
-          <!-- <p>Vestibulum fringilla pede sit amet</p> -->
+          <div class="home-tagline">
+            <p ng-bind-html=" 'HOME.INTRO.TAGLINE_1' | translate "></p>
+          </div>
         </slide>
         <slide >
           <img ng-src="/assets/images/sample-ski-5.jpg">
-          <!-- <p>Ut non enim eleifend felis</p> -->
+          <div class="home-tagline">
+            <p ng-bind-html=" 'HOME.INTRO.TAGLINE_2' | translate "></p>
+          </div>
         </slide>
-        <slide >
+        <slide>
           <img ng-src="/assets/images/sample-ski-8.jpg">
-          <!-- <p>Proin pretium leo ac pellentesque</p> -->
-        </slide>
-        <slide >
-          <img ng-src="/assets/images/sample-ski-10.jpg">
-          <!-- <p>Proin pretium leo ac pellentesque</p> -->
+          <div class="home-tagline">
+            <p ng-bind-html=" 'HOME.INTRO.TAGLINE_3' | translate "></p>
+          </div>
         </slide>
       </carousel>
-      <div class="home-tagline">
-        <p ng-bind-html=" 'HOME.INTRO.TAGLINE' | translate "></p>
+      <div class="home-main-button">
         <button href="/about-us" class="btn big-button" ng-click="goTo('expertise')">
           <span>{{ 'HOME.INTRO.READ_MORE_BUTTON' | translate }}</span>
           <svg id="right-arrow" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="13px" height="22.636px" viewBox="0 0 17.079 29.738" xml:space="preserve" preserveAspectRatio="xMinYMin meet"><polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="0.336,0.371 16.334,14.869 0.336,29.367 "></polyline></svg>

@@ -12,6 +12,9 @@ var translateFrench = {
     INTRO: {
       TITLE: 'Bienvenue chez Arimor Consulting',
       TAGLINE: 'We are an independent consultancy firm,<br>expert in SAP Financial Consolidation.<br>We provide support and assistance to our clients in Germany, France and more, for the development and optimisation of their financial organisation.',
+      TAGLINE_1: '<span class="keyword">Reliable ></span> You can count on each of us. Avoid the question or looking for someone to be blamed is never helping. "Simplicity is prerequisite for reliability."<br>― Edsger W. Dijkstra',
+      TAGLINE_2: '<span class="keyword">Committed ></span> We devote ourselves fully to the success of our customers and the project in which we are involved "Unless commitment is made, there are only promises and hopes; but no plans."<br>― Peter F. Drucker',
+      TAGLINE_3: '<span class="keyword">Efficient ></span> Finding the solution is already good. Finding the best solution is great. "Progress isn\'t made by early risers. It\'s made by lazy men trying to find easier ways to do something."<br>― Robert A. Heinlein',
       READ_MORE_BUTTON: 'See our Expertise'
     },
     NEWS: {
