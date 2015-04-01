@@ -6,6 +6,7 @@ $background-color: rgb(255,255,255);
 $section-background-color: rgb(230,230,230);
 $color-secondary-dark: rgb(68,68,68);
 $color-secondary-normal: rgb(119,119,119);
+$color-secondary-button: rgb(192,192,192);
 $color-secondary-light: rgb(225,225,225);
 $color-secondary-light2: rgb(228,228,228);
 $color-secondary-lighter: rgb(240,240,240);
@@ -354,6 +355,9 @@ h1, h2, h3 {
         margin-top: -7px;
       }
     }
+  }
+  p, ul > li {
+    color: $color-secondary-dark;
   }
   #main {
     padding-left: 0;

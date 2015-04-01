@@ -239,12 +239,14 @@
     .read-bio {
       display: block;
       cursor: pointer;
+      text-align: center;
       span {
         display: inline;
       }
       svg {
         display: inline;
         margin: 0 0 -3px 10px;
+        stroke: $color-secondary-dark;
       }
     }
     .biography {
