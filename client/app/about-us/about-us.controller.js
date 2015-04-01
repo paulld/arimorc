@@ -8,4 +8,9 @@ angular.module('arimorcApp')
       $scope.loading = false;
     };
     
+    $('.read-bio').click(function(){
+      $(this).parent().children('.biography').slideToggle();
+      $(this).hide();
+    })
+
   });

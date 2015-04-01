@@ -66,6 +66,9 @@
     font-size: 19px;
     text-align: left;
   }
+  .read-bio {
+    display: none;
+  }
 }
 
 .team-member-left { 
@@ -212,9 +215,13 @@
       }
     }
   }
-  #main .team-member-left, #main .team-member-right {
+  #main .team-member-left {
+    margin: -25px auto;
+  }
+  #main .team-member-left, 
+  #main .team-member-right {
     img {
-      max-width: 100%;
+      max-width: 80%;
       margin: 15px auto;
     }
     h2 {
@@ -223,9 +230,25 @@
     p {
       width: 100%;
       padding: 15px;
-      margin: -70px auto 40px;
+      top: -70px;
+      margin: 0 auto;
+      // margin: -70px auto 40px;
       z-index: 1;
       position: relative;
+    }
+    .read-bio {
+      display: block;
+      cursor: pointer;
+      span {
+        display: inline;
+      }
+      svg {
+        display: inline;
+        margin: 0 0 -3px 10px;
+      }
+    }
+    .biography {
+      display: none;
     }
   }
 }
