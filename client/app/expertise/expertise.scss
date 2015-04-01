@@ -138,6 +138,9 @@
       .read-more {
         cursor: pointer;
         display: block;
+        svg {
+          margin: 0 0 -3px 10px;
+        }
       }
     }
   }
