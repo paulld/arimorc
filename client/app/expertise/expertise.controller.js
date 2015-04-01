@@ -7,5 +7,10 @@ angular.module('arimorcApp')
     $scope.displayPage = function () {
       $scope.loading = false;
     };
+
+    $('.item .read-more').click(function(){
+      $(this).parent().children('.content').slideToggle();
+      $(this).hide();
+    })
     
   });
