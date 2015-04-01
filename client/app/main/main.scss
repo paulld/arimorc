@@ -57,8 +57,7 @@
 .article-item {
   margin-bottom: 10px;
 }
-.article-item h3,
-.modal-content h3 {
+.article-item h3 {
   color: $color-main;
   font-size: 23px;
   border-bottom: 2px solid $color-main;
@@ -66,16 +65,6 @@
 .article-intro {
   height: 78px;
   overflow: hidden;
-}
-.modal-content {
-  padding: 10px 25px;
-  border-radius: 0;
-}
-
-@media (min-width: 768px) {
-  .modal-dialog {
-    margin: 29px auto;
-  }
 }
 
 button.big-button.medium-button {
@@ -98,7 +87,9 @@ button.big-button.down-button svg {
 }
 
 
-// RESPONSIVE DESIGN
+/*******************
+ * RESPONSIVE DESIGN
+ */
 
 @media (max-width: 1200px) {
   .home-tagline {

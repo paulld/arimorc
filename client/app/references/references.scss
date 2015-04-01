@@ -77,3 +77,29 @@
   left: 0;
   z-index: 1;
 }
+
+
+/*******************
+ * RESPONSIVE DESIGN
+ */
+
+@media (max-width: 778px) {
+  .helper {
+    height: 50%;
+  }
+  .reference-info {
+    display: block;
+    height: 50%;
+    top: 50%;
+    background-color: transparent;
+  }
+  .reference-info-name {
+    display: none;
+  }
+  .reference-info-projects {
+    bottom: -45px;
+    ul li {
+      color: rgba(195, 195, 195, 1);
+    }
+  }
+}

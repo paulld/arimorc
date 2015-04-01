@@ -305,7 +305,27 @@ h1, h2, h3 {
   font-size: 30px;
 }
 
-// APP GENERIC RESPONSIVE DESIGN
+/*******************
+ * Modal
+ */
+
+.modal-content {
+  padding: 10px 25px;
+  border-radius: 0;
+  h3 {
+    color: $color-main;
+    font-size: 23px;
+    border-bottom: 2px solid $color-main;
+  }
+}
+.modal-dialog {
+  margin: 29px auto;
+}
+
+
+/*******************
+ * APP GENERIC RESPONSIVE DESIGN
+ */
 
 @media (max-width: 778px) {
   body {
