@@ -45,6 +45,10 @@
     .content {
       ul {
         padding-left: 15px;
+        li {
+          margin-bottom: 10px;
+          font-size: 16px;
+        }
       }
     }
     .read-more {
@@ -120,7 +124,7 @@
     & > div {
       position: inherit;
       top: inherit;
-      margin-top: -60px;
+      margin-top: 10px;
       div {
         padding: 15px;
         p {

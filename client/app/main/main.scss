@@ -24,6 +24,7 @@
     line-height: 32px;
     .keyword {
       font-weight: 300;
+      color: $color-main;
     }
   }
 }
@@ -127,12 +128,21 @@ button.big-button.down-button svg {
     padding: 10px;
     top: inherit;
     right: inherit;
+    margin-bottom: 10px;
     p {
       font-size: 16px;
       line-height: 25px;
     }
-    .carousel-indicators {
-      bottom: -5px;
-    }
+  }
+  .home-tagline p span.keyword {
+    font-weight: 500;
+    // color: $color-main;
+    display: block;
+  }
+  .home-news.section-default > header > h1 {
+    margin-bottom: 10px;
+  }
+  .carousel-indicators {
+    bottom: -10px;
   }
 }

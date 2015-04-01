@@ -26,6 +26,9 @@
           -ms-filter: brightness(0);
     }
   }
+  hr {
+    border: 0;
+  }
 }
 .reference-info {
   position: absolute;
@@ -92,6 +95,14 @@
     height: 50%;
     top: 50%;
     background-color: transparent;
+  }
+  .reference-item {
+    margin-bottom: 10px;
+    hr {
+      border-top: 1px solid $color-main;
+      width: 50%;
+      margin-top: 10px;
+    }
   }
   .reference-info-name {
     display: none;
