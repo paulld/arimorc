@@ -28,34 +28,37 @@
     }
   }
 }
-.expertise-items {
+.row.expertise-items {
   margin-bottom: 30px;
-  div {
-    display: inline-block;
-    width: 23%;
+  .col-xs-6 > div {
+    // display: inline-block;
+    // width: 23%;
     background-color: rgba(255,255,255,1);
     padding: 30px 33px;
     vertical-align: top;
     position: relative;
     margin-bottom: 30px;
-    height: 320px;
-    & + div {
-      margin-left: 2%;
-    }
+    // height: 320px;
+    // & + div {
+    //   margin-left: 2%;
+    // }
     h2 {
       font-size: 27px;
       color: $color-main;
     }
+    ul {
+      padding-left: 15px;
+    }
   }
-  div:nth-child(2) {
-    margin-top: 30px;
+  div:nth-child(2n) {
+    margin-top: 40px;
   }
-  div:nth-child(3) {
-    margin-top: 60px;
-  }
-  div:nth-child(4) {
-    margin-top: 90px;
-  }
+  // div:nth-child(3) {
+  //   margin-top: 60px;
+  // }
+  // div:nth-child(4) {
+  //   margin-top: 90px;
+  // }
 }
 .expertise-number {
   position: absolute;

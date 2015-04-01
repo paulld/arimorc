@@ -32,20 +32,36 @@ var translateGerman = {
     READ_MORE_BUTTON: 'Read More',
     PARAGRAPH: 'Arimor Consulting is the partner of financial services.<br>We work with our clients and support them for the long term in most of their projects.<br>Our flexibility, experience and commitment make Arimor Consulting an asset that fully meet your needs.<br>In our fields, and given the quality of our services, our pricing offer is one of the most competitive.',
     EXPERTISE_1: {
-      TITLE: 'Implementation',
-      CONTENT: 'Cras varius. Morbi vestibulum volutpat enim. Aliquam erat volutpat. Curabitur a felis in nunc fringilla tristique.'
+      TITLE: 'SAP FC implementation',
+      PARAGRAPH_1: 'Arimor Consulting is expert in SAP FC and project management. Each of our consultant combines the technical and the operational skills. Our expertise is required:',
+      PARAGRAPH_2: '',
+      BULLET_1: 'When you need to switch from any (or no) consolidation system to SAP FC –  During a first phase, together with our experts, we analyze your requirements and define a concept. In a second step, Arimor Consulting is implementing the new system where you are involved. Finally, we are providing a FC landscape that has been well designed and tested with all the documentation so that you are able to maintain and develop independently.',
+      BULLET_2: 'When you want to update your current SAP FC – Due to new standards (IFRS, FINREP…), internal new requirements or technical reasons (data safety, obsolescence…), Arimor Consulting is providing all the support you need from specific SQL development or IT solutions to Customers’ benchmark.',
+      BULLET_3: 'When you need training on SAP FC – For users, administrators or developers, Arimor Consulting is providing you all the training you need in English, German or French.'
     },
     EXPERTISE_2: {
-      TITLE: 'Steering tool',
-      CONTENT: 'Nunc nec neque. Donec sodales sagittis magna. Quisque ut nisi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.'
+      TITLE: 'Reporting tool',
+      PARAGRAPH_1: 'After many years working for small, medium and big companies, we found out major areas of improvement in the reporting processes. Arimor Consulting is developing for your own needs all kind of tool to assist you in this direction. All our tools are provided to be used either on MS office product (Excel, Access…) or Web, so that there is no additional licence cost but the time spent on it. The main kind of product are:',
+      PARAGRAPH_2: '',
+      BULLET_1: 'Steering tools on a Web basis (SQL, PHP, JAVA, CSS) to help consulting companies in their internal reporting by following time, expenses… with a workflow logic,',
+      BULLET_2: 'Mapping tool on Access and/or Excel to process output files (csv, txt…), with or without interfacing, and generate flat files to be loaded in the destination tool (usually consolidation tool),',
+      BULLET_3: 'Any calculation tool (usually on Excel but also on Access if the volume of data is too big) that could be relevant for you.'
     },
     EXPERTISE_3: {
       TITLE: 'Audit system',
-      CONTENT: 'Etiam sollicitudin, ipsum eu pulvinar rutrum, tellus ipsum laoreet sapien, quis venenatis ante odio sit amet eros.'
+      PARAGRAPH_1: 'As soon as you are wondering if your consolidation and reporting system have some efficiency issues, you need to ask for an Audit. Arimor Consulting is providing you this expertise on SAP FC and on HFM.',
+      PARAGRAPH_2: '',
+      BULLET_1: '',
+      BULLET_2: '',
+      BULLET_3: ''
     },
     EXPERTISE_4: {
-      TITLE: 'Support',
-      CONTENT: 'Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis tellus, vitae iaculis lacus elit id tortor.'
+      TITLE: 'Closing support',
+      PARAGRAPH_1: 'Each of our consultant is expert in IFRS consolidation. We can support you from Monitoring and analysis of consolidated packages, intercompany reconciliation or Pro forma simulations, to the elaboration of yor financial statements (including Statement of changes in equity and statement of cash flows).',
+      PARAGRAPH_2: 'Arimor Consulting is working in partnership with one of the major actor of the consolidation in Europe.',
+      BULLET_1: '',
+      BULLET_2: '',
+      BULLET_3: ''
     }
   },
   REFERENCES: {
