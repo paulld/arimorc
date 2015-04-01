@@ -71,12 +71,50 @@
   padding-top: 10px;
 }
 
+// RESPONSIVE DESIGN
+
+@media (max-width: 1200px) {
+  .expertise-intro {
+    & > div {
+      width: 70%;
+    }
+    img {
+      width: auto;
+      max-width: 92%;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .expertise-intro {
+    margin-bottom: 80px;
+    & > div {
+      width: 100%;
+      button {
+        display: none;
+      }
+    }
+  }
+  .expertise-items {
+    .item {
+      padding-bottom: 10px;
+      margin: 20px 0 !important;
+      width: 100%;
+    }
+    .item:nth-child(2n) .expertise-number {
+      left: inherit;
+      right: 33px;
+    }
+  }
+}
 
 @media (max-width: 778px) {
   .expertise-intro {
     margin-bottom: 40px;
+    img {
+      max-width: 100%;
+    }
     & > div {
-      width: 100%;
       position: inherit;
       top: inherit;
       margin-top: -60px;
@@ -89,25 +127,15 @@
       }
     }
   }
-  .expertise-intro > div button {
-    display: none;
-  }
   .expertise-items {
     .item {
-      padding-bottom: 10px;
-      cursor: pointer;
-      margin: 20px 0 !important;
-      width: 100%;
       .content {
         display: none;
       }
       .read-more {
+        cursor: pointer;
         display: block;
       }
-    }
-    .item:nth-child(2n) .expertise-number {
-      left: inherit;
-      right: 33px;
     }
   }
 }
