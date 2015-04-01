@@ -99,6 +99,7 @@ button.big-button.down-button svg {
 
 
 // RESPONSIVE DESIGN
+
 @media (max-width: 1200px) {
   .home-tagline {
     width: 65%;
@@ -141,65 +142,6 @@ button.big-button.down-button svg {
     }
     .carousel-indicators {
       bottom: -5px;
-    }
-  }
-}
-
-// APP GENERIC RESPONSIVE DESIGN
-
-@media (max-width: 778px) {
-  body {
-    padding: 0;
-  }
-  #header-top, #header-main {
-    position: inherit;
-  }
-  #header-main {
-    height: 85px;
-    .logo {
-      display: block;
-      float: none;
-      height: auto;
-      position: inherit;
-      width: 100%;
-      margin: 12px auto;
-      text-align: center;
-    }
-    ul.main-menu {
-      display: block;
-      float: none;
-      margin: 0;
-      text-align: center;
-      li {
-        margin-top: -7px;
-      }
-    }
-  }
-  #main {
-    padding-left: 0;
-    padding-right: 0;
-    & > .container {
-      padding-left: 0;
-      padding-right: 0;
-    }
-  }
-  .section-default {
-    & > header > h1 {
-      font-size: 25px;
-    }
-    & > div {
-      padding: 0 5px;
-    }
-  }
-  .modal-dialog {
-    margin: 15px;
-  }
-  #footer {
-    padding-top: 25px;
-    .copyright, .footer-menu {
-      display: block;
-      float: none;
-      text-align: center;
     }
   }
 }
