@@ -87,6 +87,10 @@ button.big-button.down-button svg {
   width: 18px;
 }
 
+.home-links button {
+  margin: 0 30px 60px 0;
+}
+
 
 /*******************
  * RESPONSIVE DESIGN
@@ -144,5 +148,9 @@ button.big-button.down-button svg {
   }
   .carousel-indicators {
     bottom: -10px;
+  }
+  .home-links button {
+    display: block;
+    margin-bottom: 30px;
   }
 }

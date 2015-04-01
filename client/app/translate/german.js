@@ -24,6 +24,11 @@ var translateGerman = {
         TITLE: 'Laufen Zwischen den Meeren',
         CONTENT: 'Sed hendrerit. Praesent adipiscing. Sed libero. Fusce neque. Mauris turpis nunc, blandit et, volutpat molestie, porta ut, ligula.</p><p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus. Nunc interdum lacus sit amet orci. Nunc nulla. Duis leo. Aenean ut eros et nisl sagittis vestibulum.</p><p>Nam at tortor in tellus interdum sagittis. Nullam cursus lacinia erat. Curabitur nisi. Praesent turpis. Donec sodales sagittis magna.</p><p>Ut non enim eleifend felis pretium feugiat. Vestibulum dapibus nunc ac augue. Praesent adipiscing. Cras varius. In consectetuer turpis ut velit.</p><p>Vestibulum eu odio. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Curabitur blandit mollis lacus. Pellentesque egestas, neque sit amet convallis pulvinar, justo nulla eleifend augue, ac auctor orci leo non est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.'
       }
+    },
+    LINKS: {
+      TITLE: 'Useful Links',
+      LINK_1:  'Intranet Clients',
+      LINK_2: 'Intranet Arimor Consulting'
     }
   },
   EXPERTISE: {
