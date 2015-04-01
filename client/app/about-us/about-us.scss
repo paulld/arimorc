@@ -99,3 +99,133 @@
     width: auto;
   }
 }
+
+
+/*******************
+ * RESPONSIVE DESIGN
+ */
+
+@media (max-width: 1200px) {
+  .about-intro {
+    margin-bottom: 100px;
+    img {
+      max-width: 92%;
+    }
+    & > div {
+      position: absolute;
+      width: 72%;
+      top: 20px;
+      right: 5px;
+      & > div {
+        padding: 22px;
+        p {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  .team-member-left p {
+    right: 0px;
+    font-size: 18px;
+    line-height: 25px;
+    img {
+      margin-bottom: 20px;
+    }
+  }
+  .team-member-right p {
+    left: 0px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
+// @media (min-width: 778px) and (max-width: 992px) {
+@media (max-width: 992px) {
+  .about-intro > div button {
+    display: none;
+  }
+  .about-intro {
+    text-align: right;
+    margin-bottom: 135px;
+    & > div {
+      right: inherit;
+      width: 100%;
+    }
+  }
+  .team-member-left {
+    margin-bottom: -230px;
+    p {
+      position: relative;
+      top: -300px;
+      right: 0;
+      width: 50%;
+    }
+  }
+  .team-member-right {
+    margin-bottom: 0;
+    h2 {
+      top: -40px;
+    }
+    p {
+      margin-bottom: -80px;
+      position: relative;
+      width: 52%;
+      top: -340px;
+      left: 0;
+      right: 0;
+    }
+  }
+}
+
+@media (max-width: 778px) {
+  #main {
+    .team-member-left, .team-member-left *, .team-member-right, .team-member-right * {
+      position: static;
+      display: block;
+      left: inherit;
+      right: inherit;
+      bottom: inherit;
+      top: inherit;
+      margin: 0;
+      padding: 0;
+    }
+  }
+  .section-default > div > h2.about-subtitle {
+    margin-left: 0;
+  }
+  .about-intro {
+    margin-bottom: 35px;
+    img {
+      max-width: 100%;
+      margin: 0;
+    }
+    & > div {
+      position: relative;
+      top: inherit;
+      margin-top: -60px;
+      div {
+        padding: 15px;
+        p {
+          font-size: 16px;
+          line-height: 23px;
+        }
+      }
+    }
+  }
+  #main .team-member-left, #main .team-member-right {
+    img {
+      max-width: 100%;
+      margin: 15px auto;
+    }
+    h2 {
+      padding: 10px 30px;
+    }
+    p {
+      width: 100%;
+      padding: 15px;
+      margin: -70px auto 40px;
+      z-index: 1;
+      position: relative;
+    }
+  }
+}
