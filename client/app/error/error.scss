@@ -18,3 +18,9 @@
     margin: 0 auto;
   }
 }
+
+@media (max-width: 778px) {
+  .error h1 {
+    font-size: 160px;
+  }
+}
