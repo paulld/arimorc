@@ -18,13 +18,6 @@
     .reference-info {
       display: block;
     }
-    img {
-              filter: brightness(0);
-      -webkit-filter: brightness(0);
-         -moz-filter: brightness(0);
-           -o-filter: brightness(0);
-          -ms-filter: brightness(0);
-    }
   }
   hr {
     border: 0;
@@ -41,25 +34,10 @@
   background-color: rgba(195, 195, 195, 0.95);
   display: none;
 }
-.reference-info-name {
-  position: relative;
-  height: 35%;
-  top: 58px;
-  padding: 0 10px;
-  h3 {
-    color: rgba(255,255,255,1);
-    font-size: 33px;
-    position: relative;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
-  }
-}
 .reference-info-projects {
   position: relative;
-  height: 35%;
-  bottom: -50px;
+  height: 100%;
+  padding: 5px;
   ul {
     position: relative;
     top: 50%;
@@ -68,7 +46,7 @@
             transform: translateY(-50%);
     li {
       color: rgba(255,255,255,1);
-      font-size: 17px;
+      font-size: 19px;
     }
   }
 }
@@ -85,6 +63,18 @@
 /*******************
  * RESPONSIVE DESIGN
  */
+
+@media (min-width: 778px) {
+  .reference-item:hover {
+    img {
+              filter: brightness(0);
+      -webkit-filter: brightness(0);
+         -moz-filter: brightness(0);
+           -o-filter: brightness(0);
+          -ms-filter: brightness(0);
+    }
+  }
+}
 
 @media (max-width: 778px) {
   .helper {
@@ -104,11 +94,7 @@
       margin-top: 10px;
     }
   }
-  .reference-info-name {
-    display: none;
-  }
   .reference-info-projects {
-    bottom: -45px;
     ul li {
       color: $color-secondary-dark;
     }
