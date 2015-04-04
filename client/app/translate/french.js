@@ -206,7 +206,12 @@ var translateFrench = {
     FOOTER_TITLE: 'Intranet'
   },
   CLIENTS: {
-    FOOTER_TITLE: 'Clients'
+    FOOTER_TITLE: 'Clients',
+    TITLE: 'Lien Sécurisé Clients',
+    CLIENT_1: {
+      TITLE: 'Keneo Sport Solution',
+      URL: 'http://keneo.arimor-consulting.com/'
+    }
   },
   IMPRESSUM: {
     FOOTER_TITLE: 'Impressum',
