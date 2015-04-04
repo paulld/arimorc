@@ -9,22 +9,37 @@
       <h1>{{ 'HOME.INTRO.TITLE' | translate }}</h1>
     </header>
     <div>
-      <carousel interval="5000">
+      <carousel interval="6000">
         <slide>
           <div class="home-tagline">
-            <p ng-bind-html=" 'HOME.INTRO.TAGLINE_1' | translate "></p>
+            <div class="home-tagline-inner">
+              <p ng-bind-html=" 'HOME.INTRO.TAGLINE_1.KEYWORD' | translate " class="tagline-keyword"></p>
+              <p ng-bind-html=" 'HOME.INTRO.TAGLINE_1.PARAGRAPH' | translate " class="tagline-paragraph"></p>
+              <p ng-bind-html=" 'HOME.INTRO.TAGLINE_1.QUOTE' | translate " class="tagline-quote"></p>
+              <p ng-bind-html=" 'HOME.INTRO.TAGLINE_1.AUTHOR' | translate " class="tagline-author"></p>
+            </div>
           </div>
           <img ng-src="/assets/images/sample-ski-1.jpg" imageonload="displayPage()">
         </slide>
         <slide>
           <div class="home-tagline">
-            <p ng-bind-html=" 'HOME.INTRO.TAGLINE_2' | translate "></p>
+            <div class="home-tagline-inner">
+              <p ng-bind-html=" 'HOME.INTRO.TAGLINE_2.KEYWORD' | translate " class="tagline-keyword"></p>
+              <p ng-bind-html=" 'HOME.INTRO.TAGLINE_2.PARAGRAPH' | translate " class="tagline-paragraph"></p>
+              <p ng-bind-html=" 'HOME.INTRO.TAGLINE_2.QUOTE' | translate " class="tagline-quote"></p>
+              <p ng-bind-html=" 'HOME.INTRO.TAGLINE_2.AUTHOR' | translate " class="tagline-author"></p>
+            </div>
           </div>
-          <img ng-src="/assets/images/sample-ski-5.jpg">
+          <img ng-src="/assets/images/sample-ski-5.jpg" imageonload="displayPage()">
         </slide>
         <slide>
           <div class="home-tagline">
-            <p ng-bind-html=" 'HOME.INTRO.TAGLINE_3' | translate "></p>
+            <div class="home-tagline-inner">
+              <p ng-bind-html=" 'HOME.INTRO.TAGLINE_3.KEYWORD' | translate " class="tagline-keyword"></p>
+              <p ng-bind-html=" 'HOME.INTRO.TAGLINE_3.PARAGRAPH' | translate " class="tagline-paragraph"></p>
+              <p ng-bind-html=" 'HOME.INTRO.TAGLINE_3.QUOTE' | translate " class="tagline-quote"></p>
+              <p ng-bind-html=" 'HOME.INTRO.TAGLINE_3.AUTHOR' | translate " class="tagline-author"></p>
+            </div>
           </div>
           <img ng-src="/assets/images/sample-ski-8.jpg">
         </slide>

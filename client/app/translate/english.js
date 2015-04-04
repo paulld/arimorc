@@ -11,10 +11,25 @@ var translateEnglish = {
     MENU_TITLE: 'Home',
     INTRO: {
       TITLE: 'Welcome to Arimor Consulting',
-      TAGLINE: 'We are an independent consultancy firm,<br>expert in SAP Financial Consolidation.<br>We provide support and assistance to our clients<br>in Germany, France and more, for the development and optimisation of their financial organisation.',
-      TAGLINE_1: '<span class="keyword">Reliable ></span> You can count on each of us. Avoid the question or looking for someone to be blamed is never helping. "Simplicity is prerequisite for reliability."<br>― Edsger W. Dijkstra',
-      TAGLINE_2: '<span class="keyword">Committed ></span> We devote ourselves fully to the success of our customers and the project in which we are involved "Unless commitment is made, there are only promises and hopes; but no plans."<br>― Peter F. Drucker',
-      TAGLINE_3: '<span class="keyword">Efficient ></span> Finding the solution is already good. Finding the best solution is great. "Progress isn\'t made by early risers. It\'s made by lazy men trying to find easier ways to do something."<br>― Robert A. Heinlein',
+      INTRO: 'We are an independent consultancy firm,<br>expert in SAP Financial Consolidation.<br>We provide support and assistance to our clients<br>in Germany, France and more, for the development and optimisation of their financial organisation.',
+      TAGLINE_1: {
+        KEYWORD: 'We are <span class="keyword">reliable</span>.',
+        PARAGRAPH: 'You can count on each of us. Avoid the question or looking for someone to be blamed is never helping.',
+        QUOTE: '"Simplicity is prerequisite for reliability."',
+        AUTHOR: 'Edsger W. Dijkstra'
+      },
+      TAGLINE_2: {
+        KEYWORD: 'We are <span class="keyword">committed</span>.',
+        PARAGRAPH: 'We devote ourselves fully to the success of our customers and the project in which we are involved.',
+        QUOTE: '"Unless commitment is made, there are only promises and hopes; but no plans."',
+        AUTHOR: 'Peter F. Drucker'
+      },
+      TAGLINE_3: {
+        KEYWORD: 'We are <span class="keyword">efficient</span>.',
+        PARAGRAPH: 'Finding the solution is already good. Finding the best solution is great.',
+        QUOTE: '"Progress isn\'t made by early risers. It\'s made by lazy men trying to find easier ways to do something."',
+        AUTHOR: 'Robert A. Heinlein'
+      },
       READ_MORE_BUTTON: 'See our Expertise'
     },
     NEWS: {
@@ -32,7 +47,7 @@ var translateEnglish = {
     }
   },
   EXPERTISE: {
-    MENU_TITLE: 'Our Expertise',
+    MENU_TITLE: 'Expertise',
     TITLE: 'Our Expertise',
     READ_MORE_BUTTON: 'Read More',
     PARAGRAPH: 'Arimor Consulting is the partner of financial services.<br>We work with our clients and support them for the long term in most of their projects.<br>Our flexibility, experience and commitment make Arimor Consulting an asset that fully meet your needs.<br>In our fields, and given the quality of our services, our pricing offer is one of the most competitive.',
