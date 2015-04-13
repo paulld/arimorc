@@ -16,8 +16,7 @@
         <li ng-show="contactForm.$submitted && contactForm.email.$invalid">Email</li>
         <li ng-show="contactForm.$submitted && contactForm.message.$invalid">Message</li>
       </ul> -->
-      
-      <form name="contactForm" class="contact-form" ng-class="formClass" novalidate>
+      <form name="contactForm" class="contact-form" ng-class="formClass" novalidate ng-hide="sentWithSuccess">
         <div class="contact-form-left">
           <input class="form-control" type="text" name="name" ng-model="contact.name" placeholder="{{ 'CONTACT_US.PLACEHOLDERS.NAME' | translate }}" required>
           <input class="form-control" type="text" name="company" ng-model="contact.company" placeholder="{{ 'CONTACT_US.PLACEHOLDERS.COMPANY' | translate }}">

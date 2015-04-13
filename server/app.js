@@ -19,6 +19,11 @@ if(config.seedDB) { require('./config/seed'); }
 
 // Setup server
 var app = express();
+
+var cors = require('cors');
+//add cors to do the cross site requests
+app.use(cors());
+
 var server = require('http').createServer(app);
 require('./config/express')(app);
 require('./routes')(app);

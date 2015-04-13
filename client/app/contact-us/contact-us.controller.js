@@ -14,14 +14,13 @@ angular.module('arimorcApp')
       }
 
       $scope.postData = angular.copy(contact);
-
-      $http.post('/api/contacts', $scope.postData)
+      $http.post('https://arimorc.herokuapp.com/api/contacts', $scope.postData)
         .success(function() {
           // Success message already sent
         })
         .error(function() {
           // Revert Success message if error
-          $scope.sentWithSuccess = true;
+          $scope.sentWithError = true;
           $scope.sentWithSuccess = false;
           $scope.contat = angular.copy($scope.postData);
         });

@@ -15,7 +15,7 @@ exports.send = function(req,res){
                     '<br><b>Message: </b>' + req.body.message + '</p>' +
                     '<p>NB: do not reply to this email directly</p>';
   var mailOptions = {
-    to: 'paulld.web@gmail.com',
+    to: 'arimor.consulting@gmail.com',
     subject: 'ArimorC contact form - new message',
     from: req.body.name + ' <' + req.body.email + '>',
     sender: req.body.email,
