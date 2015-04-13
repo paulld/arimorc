@@ -12,6 +12,15 @@
           <a ng-click="changeLanguage('fr')" translate="BUTTON_LANG_FR" href="#"></a>
         </li>
       </ul>
+
+      <ul class="top-menu list-inline">
+        <li ng-class="isActive('/clients')" ng-click="goTo('clients')">
+          <a href="">{{ 'CLIENTS.FOOTER_TITLE' | translate }}</a>
+        </li>
+        <li>
+          <a href="http://intranet.arimor-consulting.de/">{{ 'INTRANET.FOOTER_TITLE' | translate }}</a>
+        </li>
+      </ul>
     </div>
   </div>
   <div id="header-main">

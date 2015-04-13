@@ -93,39 +93,42 @@ body {
   z-index: 20;
 }
 ul.top-menu {
-  text-align: right;
+  float: right;
+  display: inline-block;
+  & > li {
+    padding: 0 10px;
+    line-height: 10px;
+    & > a {
+      color: $color-secondary-light;
+      font-family: $font-titles;
+      font-size: 12px;
+      padding-bottom: 2px;
+      border-bottom: 1px solid transparent;
+      &:hover {
+        color: #f1f1f1;
+        text-decoration: none;
+        border-bottom-color: #f1f1f1;
+        -webkit-transition: border-bottom-color 300ms ease-in-out;
+           -moz-transition: border-bottom-color 300ms ease-in-out;
+            -ms-transition: border-bottom-color 300ms ease-in-out;
+             -o-transition: border-bottom-color 300ms ease-in-out;
+                transition: border-bottom-color 300ms ease-in-out;
+      }
+    }
+  }
+  & > li.active > a {
+    color: #f1f1f1;
+    text-decoration: none;
+    border-bottom-color: #f1f1f1;
+    cursor: default;
+  }
+  & > li + li {
+    border-left: 1px solid $color-secondary-light;
+  }
 }
-ul.top-menu > li {
-  padding: 0 10px;
-  line-height: 10px;
+ul.top-menu + ul.top-menu {
+  margin-right: 50px;
 }
-ul.top-menu > li+li {
-  border-left: 1px solid $color-secondary-light;
-}
-ul.top-menu > li > a {
-  color: $color-secondary-light;
-  font-family: $font-titles;
-  font-size: 12px;
-  padding-bottom: 2px;
-  border-bottom: 1px solid transparent;
-}
-ul.top-menu > li > a:hover {
-  color: #f1f1f1;
-  text-decoration: none;
-  border-bottom-color: #f1f1f1;
-  -webkit-transition: border-bottom-color 300ms ease-in-out;
-     -moz-transition: border-bottom-color 300ms ease-in-out;
-      -ms-transition: border-bottom-color 300ms ease-in-out;
-       -o-transition: border-bottom-color 300ms ease-in-out;
-          transition: border-bottom-color 300ms ease-in-out;
-}
-ul.top-menu > li.active > a {
-  color: #f1f1f1;
-  text-decoration: none;
-  border-bottom-color: #f1f1f1;
-  cursor: default;
-}
-
 
 /*******************
  * Header Main
@@ -335,6 +338,9 @@ h1, h2, h3 {
   }
   #header-top, #header-main {
     position: inherit;
+  }
+  ul.top-menu:nth-of-type(2) {
+    float: left;
   }
   #header-main {
     height: 85px;
