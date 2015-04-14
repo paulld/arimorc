@@ -189,21 +189,18 @@ var translateGerman = {
     OFFER_1: {
       TITLE: 'Junior Consultant',
       INTRO: 'You are a "true consultant" right from day one, a full-fledged member of a project team. You are involved in the analysis, integration and administration of reporting and consolidation tool.<br>You are supporting the financial services in decisions and processes to elaborate their financial statements.',
-      TITLE_1: 'The firm',
-      PARAGRAPH_1_1: 'ARIMOR Consulting is a dynamic firm grounded in 2013. Member of a European network  and highly specialized in the implementation of reporting & consolidation tool, we are supporting the financial services of major international groups operating in various sectors (Telecommunication, banking, energy, pharmaceutics, sports…).',
-      PARAGRAPH_1_2: 'ARIMOR Consulting is doing business in a niche market and is managed by operational people. Our reliability is increasing day by day and our growth is only limited by finding/ developing our business’ know-how!',
-      TITLE_2: 'The job',
-      PARAGRAPH_2_1: 'You are a "true consultant" right from day one, a full-fledged member of a project team.<br>You are involved in the analysis, integration and administration of reporting and consolidation tool.<br>You are supporting the financial services in decisions and processes to elaborate their financial statements.',
-      PARAGRAPH_2_2: 'You would make a successful candidate, if:',
-      BULLET_1: 'You have a degree from a reputable university',
-      BULLET_2: 'You have strong analytical skills and are able to understand and interpret the underlying matters',
-      BULLET_3: 'You are highly motivated and entrepreneurial',
-      BULLET_4: 'You possess very good communication skills and commitment to pursue a professional career',
-      BULLET_5: 'You show a high level of commitment for excellence',
-      BULLET_6: 'You speak English fluently',
-      PARAGRAPH_2_3: 'Skills in accounting and / or controlling as well as database logic (MS Access or any other cube), Excel & VBA will be for you a real leverage.',
-      TITLE_3: 'Contact us',
-      PARAGRAPH_3: 'Mail: join@arimor-consulting.com'
+      THE_FIRM: {
+        TITLE: 'The firm',
+        CONTENT: 'ARIMOR Consulting is a dynamic firm grounded in 2013. Member of a European network and highly specialized in the implementation of reporting & consolidation tool, we are supporting the financial services of major international groups operating in various sectors (Telecommunication, banking, energy, pharmaceutics, sports…).</p><p>ARIMOR Consulting is doing business in a niche market and is managed by operational people. Our reliability is increasing day by day and our growth is only limited by finding/ developing our business’ know-how!'
+      },
+      THE_JOB: {
+        TITLE: 'The job',
+        CONTENT: 'You are a "true consultant" right from day one, a full-fledged member of a project team.<br>You are involved in the analysis, integration and administration of reporting and consolidation tool.<br>You are supporting the financial services in decisions and processes to elaborate their financial statements.</p><p>You would make a successful candidate, if:</p><ul><li>You have a degree from a reputable university</li><li>You have strong analytical skills and are able to understand and interpret the underlying matters</li><li>You are highly motivated and entrepreneurial</li><li>You possess very good communication skills and commitment to pursue a professional career</li><li>You show a high level of commitment for excellence</li><li>You speak English fluently</li></ul><p>Skills in accounting and / or controlling as well as database logic (MS Access or any other cube), Excel & VBA will be for you a real leverage.'
+      },
+      CONTACT_US: {
+        TITLE: 'Contact us',
+        CONTENT: 'Mail: join@arimor-consulting.com'
+      }
     }
   },
   INTRANET: {

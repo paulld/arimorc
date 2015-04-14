@@ -24,10 +24,10 @@
     </div>
 
     <div class="row offers" id="offers">
-      <div class="col-md-6 article-item">
-        <h3 ng-bind-html=" 'CAREERS.OFFER_1.TITLE' | translate "></h3>
-        <p ng-bind-html=" 'CAREERS.OFFER_1.INTRO' | translate " class="article-intro"></p>
-        <button class="btn big-button medium-button" ng-click="open('lg')">
+      <div class="col-md-6 article-item" ng-repeat="offer in offers">
+        <h3 ng-bind-html="offer.title"></h3>
+        <p ng-bind-html="offer.intro" class="article-intro"></p>
+        <button class="btn big-button medium-button" ng-click="open(offer)">
           <span>{{ 'CAREERS.READ_MORE_BUTTON' | translate }}</span>
           <svg id="right-arrow" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="13px" height="22.636px" viewBox="0 0 17.079 29.738" xml:space="preserve" preserveAspectRatio="xMinYMin meet"><polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="0.336,0.371 16.334,14.869 0.336,29.367 "></polyline></svg>
         </button>
@@ -37,23 +37,14 @@
 </div>
 
 <script type="text/ng-template" id="offer.html">
-  <h3 ng-bind-html=" 'CAREERS.OFFER_1.TITLE_1' | translate "></h3>
-  <p ng-bind-html=" 'CAREERS.OFFER_1.PARAGRAPH_1_1' | translate "></p>
-  <p ng-bind-html=" 'CAREERS.OFFER_1.PARAGRAPH_1_2' | translate "></p>
-  
-  <h3 ng-bind-html=" 'CAREERS.OFFER_1.TITLE_2' | translate "></h3>
-  <p ng-bind-html=" 'CAREERS.OFFER_1.PARAGRAPH_2_1' | translate "></p>
-  <p ng-bind-html=" 'CAREERS.OFFER_1.PARAGRAPH_2_2' | translate "></p>
-  <ul>
-    <li ng-bind-html=" 'CAREERS.OFFER_1.BULLET_1' | translate "></li>
-    <li ng-bind-html=" 'CAREERS.OFFER_1.BULLET_2' | translate "></li>
-    <li ng-bind-html=" 'CAREERS.OFFER_1.BULLET_3' | translate "></li>
-    <li ng-bind-html=" 'CAREERS.OFFER_1.BULLET_4' | translate "></li>
-    <li ng-bind-html=" 'CAREERS.OFFER_1.BULLET_5' | translate "></li>
-    <li ng-bind-html=" 'CAREERS.OFFER_1.BULLET_6' | translate "></li>
-  </ul>
-  <p ng-bind-html=" 'CAREERS.OFFER_1.PARAGRAPH_2_3' | translate "></p>
+  <h2 ng-bind-html="offer.title" class="offer-title"></h2>
 
-  <h3 ng-bind-html=" 'CAREERS.OFFER_1.TITLE_3' | translate "></h3>
-  <p ng-bind-html=" 'CAREERS.OFFER_1.PARAGRAPH_3' | translate "></p>
+  <h3 ng-bind-html="offer.the_firm_title"></h3>
+  <p ng-bind-html="offer.the_firm_content"></p>
+
+  <h3 ng-bind-html="offer.the_job_title"></h3>
+  <p ng-bind-html="offer.the_job_content"></p>
+
+  <h3 ng-bind-html="offer.contact_us_title"></h3>
+  <p ng-bind-html="offer.contact_us_content"></p>
 </script>
