@@ -4,7 +4,7 @@
       <h1>{{ 'CONTACT_US.TITLE' | translate }}</h1>
     </header>
     <div>
-      <p class="contact-form-success" ng-bind-html=" 'CONTACT_US.INTRO' | translate "></p>
+      <p class="contact-form-success" ng-hide="sentWithSuccess" ng-bind-html=" 'CONTACT_US.INTRO' | translate "></p>
 
       <p class="contact-form-success" ng-show="sentWithSuccess" ng-bind-html=" 'CONTACT_US.SUCCESS_MESSAGE' | translate "></p>
 

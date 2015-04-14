@@ -2,8 +2,8 @@ var nodemailer = require('nodemailer');
 var transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: process.env.EMAIL_USER,
-    pass: process.env.EMAIL_PASS
+    user: process.env.EMAIL_FROM,
+    pass: process.env.EMAIL_FROM_PASS
   }
 });
 
@@ -15,7 +15,7 @@ exports.send = function(req,res){
                     '<br><b>Message: </b>' + req.body.message + '</p>' +
                     '<p>NB: do not reply to this email directly</p>';
   var mailOptions = {
-    to: 'arimor.consulting@gmail.com',
+    to: process.env.EMAIL_TO,
     subject: 'ArimorC contact form - new message',
     from: req.body.name + ' <' + req.body.email + '>',
     sender: req.body.email,
