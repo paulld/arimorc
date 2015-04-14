@@ -39,11 +39,6 @@ var translateFrench = {
         TITLE: 'Titre de l\'article 1 - 2014',
         CONTENT: 'Phasellus volutpat, metus eget egestas mollis, lacus lacus blandit dui, id egestas quam mauris ut lacus. Mauris turpis nunc, blandit et, volutpat molestie, porta ut, ligula. Nunc interdum lacus sit amet orci. Pellentesque auctor neque nec urna. Fusce fermentum odio nec arcu.</p><p>Pellentesque auctor neque nec urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Vestibulum facilisis, purus nec pulvinar iaculis, ligula mi congue nunc, vitae euismod ligula urna in dolor. Duis vel nibh at velit scelerisque suscipit. Vestibulum rutrum, mi nec elementum vehicula, eros quam gravida nisl, id fringilla neque ante vel mi.</p><p>Sed cursus turpis vitae tortor. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Proin sapien ipsum, porta a, auctor quis, euismod ut, mi. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis. Quisque ut nisi.</p><p>Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Mauris sollicitudin fermentum libero. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi. Vestibulum fringilla pede sit amet augue. In dui magna, posuere eget, vestibulum et, tempor auctor, justo.</p><p>Praesent ac massa at ligula laoreet iaculis. In auctor lobortis lacus. In turpis. Donec interdum, metus et hendrerit aliquet, dolor diam sagittis ligula, eget egestas libero turpis vel mi. Nam adipiscing.'
       }
-    },
-    LINKS: {
-      TITLE: 'Liens Utiles',
-      LINK_1:  'Intranet Clients',
-      LINK_2: 'Intranet Arimor Consulting'
     }
   },
   EXPERTISE: {

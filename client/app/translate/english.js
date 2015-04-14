@@ -39,11 +39,6 @@ var translateEnglish = {
         TITLE: 'Arimor Consulting races between the seas!',
         CONTENT: 'Race between the Seas... from Husum to Damp.</p><p>Arimor Consulting will participate in the next edition of "Lauf zwischen den Meeren", with a team of 10 people composed of collaborators and clients.</p><p>The federal state between the North Sea and the Baltic Sea is diverse and therefore unique, like no other federal state. The race between the seas is just as unique, where the participants discover the federal state between the seas – between Husum and Damp – together as a team, and cross it in race stages. A race, which not only connects the coasts of the North and Baltic Sea, but also the people. For the race between the seas, it is not only the individual performance that counts, but also the communal performance of the 700 teams, with up to ten athletes each from the recreational and professional sports sectors. The fastest relay teams require approx. 5 hours and 30 minutes for the 96.3 kilometres, and reach the finish line around 14.30.</p><p>More information here: <a href="http://en.lauf-zwischen-den-meeren.de/">http://en.lauf-zwischen-den-meeren.de/</a>'
       }
-    },
-    LINKS: {
-      TITLE: 'Useful Links',
-      LINK_1:  'Intranet Clients',
-      LINK_2: 'Intranet Arimor Consulting'
     }
   },
   EXPERTISE: {

@@ -69,7 +69,7 @@
 
 
 .home-news {
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 .article-item {
   margin-bottom: 10px;
@@ -101,10 +101,6 @@ button.big-button.down-button:hover svg {
 }
 button.big-button.down-button svg {
   width: 18px;
-}
-
-.home-links button {
-  margin: 0 30px 60px 0;
 }
 
 
@@ -192,9 +188,5 @@ button.big-button.down-button svg {
   }
   .carousel-indicators {
     bottom: -10px;
-  }
-  .home-links button {
-    display: block;
-    margin-bottom: 30px;
   }
 }
